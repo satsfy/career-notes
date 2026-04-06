@@ -35,15 +35,18 @@
 	- [x] p3 - fix the tests failing on [my local branch](https://github.com/satsfy/corepc/pull/27)
 	- [x] p4 - fix the tests failing on [my local branch](https://github.com/satsfy/corepc/pull/27)
 	- CI finally passing
-	- [ ] p5 - shaving off the PR for corepc. 
+	- [ ] p5 - shaving off the PR for corepc
 - Read up and arrive at a final conclusion about corepc client
 	- For context, check out tasks/Corepc Client
 	- [x] p1 - Read up on what are the existing problems
-	- [ ] p2 - Research what actually are the choices and tradeoffs
-	- [ ] p2 - Write a design proposal
-	- [ ] p4 - Write an issue
-	- [ ] p3 - Consider codegen solution for it
+	- [x] p2 - Research what actually are the choices and tradeoffs
+	- [ ] p3 - Check and review the entire repo to determine discussion status
+	- [ ] p4 - check downstream implementations
+	- [ ] p5 - Write a design proposal
+	- [ ] p6 - Write an issue
+	- [ ] p7 - Consider the follow up codegen
 - Do A PR review in corepc today
+	- [x] p1 - Reviewed https://github.com/rust-bitcoin/corepc/pull/539
 - Push at least one client problem fix based on compare tool to support floresta
 - Read all open issues and write a report
 - Integrate notes on personal website
