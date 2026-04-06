@@ -1,5 +1,6 @@
 **Current goal:** Establish a grant-able foothold in bitcoin open source ecossystem
-
+- **Subgoal:** Fix bitcoin node types situation in bitcoin core and corepc
+ 
 ---------
 
 1/4/26:
@@ -38,4 +39,5 @@
 	- [ ] p3 - Consider codegen solution for it
 - Do A PR review in corepc today
 - Read all open issues and write a report
+- Integrate notes on personal website
 
