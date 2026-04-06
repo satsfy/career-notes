@@ -30,14 +30,19 @@
 
 6/4/26:
 - Wrap up corepc ci migration to cargo-rbmt
-	- [ ] p1 - fix the tests failing on [my local branch](https://github.com/satsfy/corepc/pull/27)
-- Push at least one client problem fix based on compare tool to support floresta
+	- [x] p1 - fix the tests failing on [my local branch](https://github.com/satsfy/corepc/pull/27)
+	- [x] p2 - fix the tests failing on [my local branch](https://github.com/satsfy/corepc/pull/27)
+	- [x] p3 - fix the tests failing on [my local branch](https://github.com/satsfy/corepc/pull/27)
+	- [ ] p4 - fix the tests failing on [my local branch](https://github.com/satsfy/corepc/pull/27)
 - Read up and arrive at a final conclusion about corepc client
 	- Because Tobin has expressed he doesn't want corepc to be a production client [here](https://tobin.cc/blog/core-rpc-client/) explicitly, but [B10C](https://github.com/peer-observer/peer-observer/issues/199#issuecomment-4033595043), floresta and countless other projects want it, and yet [another dev is implementing it](https://github.com/rust-bitcoin/corepc/pull/505) for corepc 
 	- [ ] p1 - Read up on that is missing
 	- [ ] p2 - Write a design proposal (mostly to guide you in making a future contribution)
 	- [ ] p3 - Consider codegen solution for it
 - Do A PR review in corepc today
+- Push at least one client problem fix based on compare tool to support floresta
 - Read all open issues and write a report
 - Integrate notes on personal website
+
+
 
