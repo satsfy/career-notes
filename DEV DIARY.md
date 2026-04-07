@@ -35,7 +35,12 @@
 	- [x] p3 - fix the tests failing on [my local branch](https://github.com/satsfy/corepc/pull/27)
 	- [x] p4 - fix the tests failing on [my local branch](https://github.com/satsfy/corepc/pull/27)
 	- CI finally passing
-	- [ ] p5 - shaving off the PR for corepc
+	- [x] p5 - shaving off the PR for corepc
+	- [x] p6 - shaving off the PR for corepc
+	- [x] p7 - shaving off the PR for corepc
+	- [x] p8 - shaving off the PR for corepc
+	- [x] p9 - shaving off the PR for corepc
+	- [x] p10 - shaving off the PR for corepc
 - Read up and arrive at a final conclusion about corepc client
 	- For context, check out tasks/Corepc Client
 	- [x] p1 - Read up on what are the existing problems
@@ -55,7 +60,15 @@
 7/4/26:
 - Wrap up corepc ci migration to cargo-rbmt
 	- Maintainers receptive to the idea
+	- [x] p1 - shaving off the PR
+	- [x] p2 - shaving off the PR
+	- [x] p3 - shaving off the PR
+	- [x] p4 - shaving off the PR
 	- [ ] p1 - shaving off the PR
+- Join the existing corepc production client creation effort
+	- [ ] p1 - figure out what this client should be by reading the BDK and LDK use cases, adn jamil implementation
+	- [ ] p2 - find what can I provide and my entry point to aid
+	- [ ] p3 - propose codegen client generation from openrpc specs
 - Review a PR in rust-bitcoin to get familiarized with the project
 	- [ ] p1- Read what I can surrounding the project to understand what it is 
 	- [ ] p2 - Open codebase and identify general components
