@@ -64,7 +64,12 @@
 	- [x] p2 - shaving off the PR
 	- [x] p3 - shaving off the PR
 	- [x] p4 - shaving off the PR
-	- [ ] p1 - shaving off the PR
+	- [x] p5 - shaving off the PR
+	- [x] p6 - shaving off the PR
+	- [x] p7 - shaving off the PR
+	- [x] p8 - shaving off the PR
+	- This was a painful PR because of the constant CI errors
+	- PR CREATED: https://github.com/rust-bitcoin/corepc/pull/540/
 - Join the existing corepc production client creation effort
 	- [ ] p1 - figure out what this client should be by reading the BDK and LDK use cases, adn jamil implementation
 	- [ ] p2 - find what can I provide and my entry point to aid
