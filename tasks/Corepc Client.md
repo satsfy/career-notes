@@ -44,3 +44,39 @@ Some sensible choices I propose:
 
 Sensible follow up choices I propose:
 - Use codegen for schemas, not for all client logic: generate types and method metadata, but keep transport, errors, and public API hand-curated.
+
+
+---------
+
+# issue comment
+- https://github.com/rust-bitcoin/corepc/issues/507
+
+A number of projects have have to re-implement solutions because there is no shared client. Some are also using the current `corepc-client` anyway because, despite its stated goals, it is still the furthest-along implementation in terms of coverage and test infrastructure. Effort gets duplicated and more surface area for subtle bugs in transport, typing, version handling, and error conversion. It also raises the barrier for newer Rust Bitcoin projects that need “a sensible client that works” more than they need a perfectly custom one.
+
+I understand that creating a corepc production client would implicitly standardize choices that are not universal:
+- which Core versions are supported
+- transport/auth assumptions
+- typing/conversion strategy
+- failure semantics and compatibility guarantees...
+
+I think the most promising path here to create a production-usable bounded default client with explicit tradeoffs for the large middle of downstream users. A useful shared base to avoid re-implementations and bugs in downstream clients. 
+
+So the problem is really one of **policy surface**. If that surface is left open-ended, the client risks becoming the place where every downstream requirement accumulates.
+
+Instead of aiming for a universal abstraction, define one sensible default client for a large middle of users:
+- explicit about its tradeoffs
+- production-usable within a documented scope
+- easy to extend or fork outside that scope
+- conservative about maintenance burden
+## Possible shape of an MVP
+
+I think an MVP could look something like:
+- Async client
+- structured errors that distinguish transport / RPC / decode / conversion / version mismatch
+- a raw JSON-RPC escape hatch for unsupported or newly added methods
+
+We may reduce maintenance burden by using code generation on the method layer from upstream OpenRPC schema information. It would make it possible to support to bitcoin core master branch coverage.
+
+Future work may involve supporting optional arguments.
+An open question is: what is the right target? A BDK-like client?
+
