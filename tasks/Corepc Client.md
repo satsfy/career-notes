@@ -80,3 +80,39 @@ We may reduce maintenance burden by using code generation on the method layer fr
 Future work may involve supporting optional arguments.
 An open question is: what is the right target? A BDK-like client?
 
+----- 
+
+### Alternative comment
+
+Keep the sync integration-test client as-is, define a bounded async/base client around the overlapping BDK/LDK use case first, and make the tradeoffs explicit rather than aiming for one client for all production software.
+
+A number of projects have had to re-implement solutions because there is no shared client. Some are also using the current `corepc-client` anyway because, despite its stated goals, it is still the furthest-along implementation in terms of coverage and test infrastructure.
+
+I do not think the conclusion from that is that `corepc` should try to provide a single client for all production software. The concern raised above about design tradeoffs accumulating into a pile of junk is real, and the existing sync client also has a legitimate role as something that can be patched freely for integration testing. What seems worth exploring instead is a bounded shared base with explicit scope and guarantees.
+
+The thing that looks most promising to me is not “turn the current client into a universal production client”, but “define one default async client with a narrow, documented target, and keep the current sync client as the integration-test client”. That seems compatible with the direction already mentioned here: start from BDK, see whether the LDK overlap is favorable, and extend only where the overlap is real and does not introduce feature-gating or API churn. Alpen/PDK may well fit into that same overlap if their requirements are mostly the same.
+
+That would still give downstream users something useful: a shared base that removes duplicated effort and reduces bugs in transport, typing, version handling, and error conversion, without pretending to solve every downstream requirement inside one crate.
+
+## Possible shape of an MVP
+
+I think an MVP could look something like:
+
+- keep the existing sync `corepc-client` for integration testing and do not repurpose it
+- add a separate async client intended as a bounded shared base
+- scope it first around the intersection of BDK/LDK requirements, and only add Alpen/PDK requirements where they fit cleanly
+- support a documented recent Core version window, with explicit guarantees inside that window
+- expose structured errors that distinguish transport / RPC / decode / conversion / version mismatch
+- keep a raw JSON-RPC escape hatch for unsupported or newly added methods
+- keep transport/auth assumptions minimal and explicit
+
+For coverage, I think there are really two layers:
+
+- a method layer that aims for broad coverage over the supported Core versions
+- a smaller ergonomic layer for the methods the initial downstream users actually need
+
+That split matters because it avoids blocking on API polish for every method while still giving downstreams a shared base they can build on. It also seems like the right place to use code generation: generate the method/schema layer from upstream OpenRPC information where possible, but keep the public client API and error surface hand-curated. That should reduce churn, make recent-version coverage more realistic, and avoid turning the generated output itself into the public design.
+
+I would also treat optional arguments as something that can be added incrementally on top of that base, rather than a prerequisite for getting the shared client shape right.
+
+So the concrete question I would ask is not “should `corepc` provide the production client”, but rather: is there interest in maintaining a bounded async base client in this repo with explicit tradeoffs, while preserving the current sync integration-test client and avoiding any claim that one client should fit all production software?

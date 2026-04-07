@@ -23,7 +23,7 @@
 	- [x] p1 - Read and implement v1 for request in https://github.com/rust-bitcoin/corepc/issues/538
 - Consider codegen
 - Do A PR review in corepc today
-- Read all open issues and write a report
+- Read all open issues and write a repor
 
 5/4/26:
 - Offline: Páscoa
@@ -43,13 +43,20 @@
 	- [ ] p3 - Check and review the entire repo to determine discussion status
 	- [ ] p4 - check downstream implementations
 	- [ ] p5 - Write a design proposal
-	- [ ] p6 - Write an issue
+	- [ ] p6 - Write an issue comment
 	- [ ] p7 - Consider the follow up codegen
 - Do A PR review in corepc today
 	- [x] p1 - Reviewed https://github.com/rust-bitcoin/corepc/pull/539
-- Push at least one client problem fix based on compare tool to support floresta
-- Read all open issues and write a report
+- ~~Push at least one client problem fix based on compare tool to support floresta~~
+	- The client situation must be resolved before I can do this
+- Read all corepc open issues and write a report
 - Integrate notes on personal website
 
-
-
+7/4/26:
+- Wrap up corepc ci migration to cargo-rbmt
+	- Maintainers receptive to the idea
+	- [ ] p1 - shaving off the PR
+- Review a PR in rust-bitcoin to get familiarized with the project
+	- [ ] p1- Read what I can surrounding the project to understand what it is 
+	- [ ] p2 - Open codebase and identify general components
+	- [ ] p3 - Look through existing issues and development
