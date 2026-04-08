@@ -54,8 +54,8 @@
 	- [x] p1 - Reviewed https://github.com/rust-bitcoin/corepc/pull/539
 - ~~Push at least one client problem fix based on compare tool to support floresta~~
 	- The client situation must be resolved before I can do this
-- Read all corepc open issues and write a report
-- Integrate notes on personal website
+- corepc plans:
+	- [x] Read corepc open issues and write a report
 
 7/4/26:
 - Wrap up corepc ci migration to cargo-rbmt
@@ -71,10 +71,27 @@
 	- This was a painful PR because of the constant CI errors
 	- PR CREATED: https://github.com/rust-bitcoin/corepc/pull/540/
 - Join the existing corepc production client creation effort
+	- [x] p0 - research and gather up all the material for a concrete proposal
+- Review a PR in rust-bitcoin to get familiarized with the project
+	- [x] p1- Read what I can surrounding the project to understand what it is 
+
+8/4/26
+- Workshop Slow blocks
+	- [x] Sync signet
+	- [x] Receive live slow blocks
+	- [x] Inspect reasons for slowness
+- infra:
+	- [x] Setup my own testnet full node
+	- [ ] Integrate notes on personal website
+- Join the existing corepc production client creation effort
 	- [ ] p1 - figure out what this client should be by reading the BDK and LDK use cases, adn jamil implementation
 	- [ ] p2 - find what can I provide and my entry point to aid
 	- [ ] p3 - propose codegen client generation from openrpc specs
+ - corepc ci migration to cargo-rbmt
+	 - [ ] Address reviews
 - Review a PR in rust-bitcoin to get familiarized with the project
 	- [ ] p1- Read what I can surrounding the project to understand what it is 
 	- [ ] p2 - Open codebase and identify general components
 	- [ ] p3 - Look through existing issues and development
+- bitcoin core openrpc elision elimination PR 
+	[ ] Rebase bitcoin core pr https://github.com/bitcoin/bitcoin/pull/34764#issuecomment-4202258634
