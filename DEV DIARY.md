@@ -83,10 +83,15 @@
 - infra:
 	- [x] Setup my own testnet full node
 	- [ ] Integrate notes on personal website
-- Join the existing corepc production client creation effort
-	- [ ] p1 - figure out what this client should be by reading the BDK and LDK use cases, adn jamil implementation
-	- [ ] p2 - find what can I provide and my entry point to aid
-	- [ ] p3 - propose codegen client generation from openrpc specs
+- Join the existing corepc production client creation effort **(RESEARCH -> THINK -> PROPOSE)**
+	- [x] p1 - Use Github Search to find [uses of corepc on real projects](https://github.com/search?q=corepc_types&type=code)
+	- [x] p2 - Collect all client implementations for BDK, Alpen, LDK, floresta, MystenLabs/hashi, benthecarman/mempool-radar, peer-observer, jamil implementation, sunsetted rust-bitcoin/rust-bitcoincore-rpc, corepc client sync (obviously)...
+	- [ ] p3 - pool information based on found implementations about what truly the most necessary features for a 
+	- [ ] p4 - Write a research summary about this
+	- [ ] p5 - Turn this research into an issue comment
+	- [ ] p6 - Write a proposal client that is useful enough for a certain portions of the users
+	- [ ] p7 - propose codegen client generation from openrpc specs
+		- Should I create a `bitcoin-types-codegen` package? 
  - corepc ci migration to cargo-rbmt
 	 - [ ] Address reviews
 - Review a PR in rust-bitcoin to get familiarized with the project
