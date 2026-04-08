@@ -86,12 +86,15 @@
 - Join the existing corepc production client creation effort **(RESEARCH -> THINK -> PROPOSE)**
 	- [x] p1 - Use Github Search to find [uses of corepc on real projects](https://github.com/search?q=corepc_types&type=code)
 	- [x] p2 - Collect all client implementations for BDK, Alpen, LDK, floresta, MystenLabs/hashi, benthecarman/mempool-radar, peer-observer, jamil implementation, sunsetted rust-bitcoin/rust-bitcoincore-rpc, corepc client sync (obviously)...
-	- [ ] p3 - pool information based on found implementations about what truly the most necessary features for a 
-	- [ ] p4 - Write a research summary about this
-	- [ ] p5 - Turn this research into an issue comment
-	- [ ] p6 - Write a proposal client that is useful enough for a certain portions of the users
-	- [ ] p7 - propose codegen client generation from openrpc specs
+	- [x] p3 - pool information based on found implementations about what truly the most necessary features for a client
+	- [x] p4 - Write a research summary about this
+	- [x] p5 - Turn this research into an issue comment
+	- [x] p6 - Write a proposal client that is useful enough for a certain portions of the users
+	- [x] p7 - propose codegen client generation from openrpc specs
 		- Should I create a `bitcoin-types-codegen` package? 
+	- [ ] p8 - think strategy:
+		- So I have 1. research about the rust bitcoin rpc client ecosystem 2. a proposal for the definitive version of this client for corepc 3. codegen proposal. I'm considering how to present these. 
+	- [ ] p9 - Prepare final touches before sending it
  - corepc ci migration to cargo-rbmt
 	 - [ ] Address reviews
 - Review a PR in rust-bitcoin to get familiarized with the project
