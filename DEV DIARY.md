@@ -45,11 +45,6 @@
 	- For context, check out tasks/Corepc Client
 	- [x] p1 - Read up on what are the existing problems
 	- [x] p2 - Research what actually are the choices and tradeoffs
-	- [ ] p3 - Check and review the entire repo to determine discussion status
-	- [ ] p4 - check downstream implementations
-	- [ ] p5 - Write a design proposal
-	- [ ] p6 - Write an issue comment
-	- [ ] p7 - Consider the follow up codegen
 - Do A PR review in corepc today
 	- [x] p1 - Reviewed https://github.com/rust-bitcoin/corepc/pull/539
 - ~~Push at least one client problem fix based on compare tool to support floresta~~
@@ -82,7 +77,6 @@
 	- [x] Inspect reasons for slowness
 - infra:
 	- [x] Setup my own testnet full node
-	- [ ] Integrate notes on personal website
 - Join the existing corepc production client creation effort **(RESEARCH -> THINK -> PROPOSE)**
 	- [x] p1 - Use Github Search to find [uses of corepc on real projects](https://github.com/search?q=corepc_types&type=code)
 	- [x] p2 - Collect all client implementations for BDK, Alpen, LDK, floresta, MystenLabs/hashi, benthecarman/mempool-radar, peer-observer, jamil implementation, sunsetted rust-bitcoin/rust-bitcoincore-rpc, corepc client sync (obviously)...
@@ -95,11 +89,9 @@
 	- [x] p8 - think strategy:
 		- So I have 1. research about the rust bitcoin rpc client ecosystem 2. a proposal for the definitive version of this client for corepc 3. codegen proposal. I'm considering how to present these...
 		- I have decided to separate codegen proposal into a separate issue for later
-	- Postponed - I need more mind to think about this, will leave for tomorrow
+	- Postponed - I need more mind to think about this, will leave for later
  - corepc ci migration to cargo-rbmt
 	 - [x] p1-  Address reviews
-- bitcoin core openrpc elision elimination PR 
-	[ ] Rebase bitcoin core pr https://github.com/bitcoin/bitcoin/pull/34764#issuecomment-4202258634
 
 9/4/26:
  - corepc ci migration to cargo-rbmt
@@ -110,17 +102,23 @@
 	 - [x] p5 -  Address reviews
 - bitcoin core openrpc elision elimination PR 
 	- [ ] Rebase bitcoin core pr https://github.com/bitcoin/bitcoin/pull/34764#issuecomment-4202258634
-- [Tobin proposed issue](https://github.com/rust-bitcoin/rust-bitcoin/issues/5969#issuecomment-4209664725)
-	- [ ] p1 - Read 
-	- [ ] Think
-	- [ ] implement
 - Review a PR in rust-bitcoin to get familiarized with the project
 	- Strategically, the best PRs to review right now is rust-bitcoin because I dont really know the project. I need to acquire that context.
-	- [ ] p1- Read what I can surrounding the project to understand what it is 
-	- [ ] p2 - Open codebase and identify general components
-	- [ ] p3 - Look through existing issues and development
+	- [Tobin proposed issue](https://github.com/rust-bitcoin/rust-bitcoin/issues/5969#issuecomment-4209664725) tagging me but someone already implemented it
+	- [x] p1 - Review the PR for issue tobin proposed - https://github.com/rust-bitcoin/rust-bitcoin/pull/5975#pullrequestreview-4085256871
+	- [ ] p2 - Read what I can surrounding the project to understand what it is 
+	- [ ] p3 - Open codebase and identify general components
+	- [ ] p4 - Look through existing issues and development
 
 10/4/26:
 - Join the existing corepc production client creation effort **(RESEARCH -> THINK -> PROPOSE)**
 	- [ ] p9 - Prepare final touches before sending it in 
+- Infra:
+	- [ ] Integrate notes on personal website
+- Review a PR in rust-bitcoin to get familiarized with the project
 
+11/4/26:
+- Education:
+	- [ ] Read a BIP
+- Blog:
+	- [ ] Think of a blog post to write...
