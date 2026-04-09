@@ -92,14 +92,35 @@
 	- [x] p6 - Write a proposal client that is useful enough for a certain portions of the users
 	- [x] p7 - propose codegen client generation from openrpc specs
 		- Should I create a `bitcoin-types-codegen` package? 
-	- [ ] p8 - think strategy:
-		- So I have 1. research about the rust bitcoin rpc client ecosystem 2. a proposal for the definitive version of this client for corepc 3. codegen proposal. I'm considering how to present these. 
-	- [ ] p9 - Prepare final touches before sending it
+	- [x] p8 - think strategy:
+		- So I have 1. research about the rust bitcoin rpc client ecosystem 2. a proposal for the definitive version of this client for corepc 3. codegen proposal. I'm considering how to present these...
+		- I have decided to separate codegen proposal into a separate issue for later
+	- Postponed - I need more mind to think about this, will leave for tomorrow
  - corepc ci migration to cargo-rbmt
-	 - [ ] Address reviews
+	 - [x] p1-  Address reviews
+- bitcoin core openrpc elision elimination PR 
+	[ ] Rebase bitcoin core pr https://github.com/bitcoin/bitcoin/pull/34764#issuecomment-4202258634
+
+9/4/26:
+ - corepc ci migration to cargo-rbmt
+	 - [x] p1 -  Address reviews
+	 - [x] p2 -  Address reviews
+	 - [x] p3 -  Address reviews
+	 - [x] p4 -  Address reviews
+	 - [x] p5 -  Address reviews
+- bitcoin core openrpc elision elimination PR 
+	- [ ] Rebase bitcoin core pr https://github.com/bitcoin/bitcoin/pull/34764#issuecomment-4202258634
+- [Tobin proposed issue](https://github.com/rust-bitcoin/rust-bitcoin/issues/5969#issuecomment-4209664725)
+	- [ ] p1 - Read 
+	- [ ] Think
+	- [ ] implement
 - Review a PR in rust-bitcoin to get familiarized with the project
+	- Strategically, the best PRs to review right now is rust-bitcoin because I dont really know the project. I need to acquire that context.
 	- [ ] p1- Read what I can surrounding the project to understand what it is 
 	- [ ] p2 - Open codebase and identify general components
 	- [ ] p3 - Look through existing issues and development
-- bitcoin core openrpc elision elimination PR 
-	[ ] Rebase bitcoin core pr https://github.com/bitcoin/bitcoin/pull/34764#issuecomment-4202258634
+
+10/4/26:
+- Join the existing corepc production client creation effort **(RESEARCH -> THINK -> PROPOSE)**
+	- [ ] p9 - Prepare final touches before sending it in 
+
