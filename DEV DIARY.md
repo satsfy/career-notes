@@ -4,6 +4,13 @@
 ---------
 
 1/4/26:
+- earlier work on:
+	- https://github.com/bitcoin/bitcoin/pull/34799
+	- https://github.com/bitcoin/bitcoin/pull/34683
+	- https://github.com/bitcoin/bitcoin/pull/34764
+	- https://github.com/bitcoin/bitcoin/pull/34867
+	- https://github.com/stealth-bitcoin/stealth/
+	- 8 corepc PRs: https://github.com/rust-bitcoin/corepc/pulls?q=is%3Apr%20author%3Asatsfy%20
 - Diagnose what I think is most needed on corepc
 	- [x] Explore the repo to get thae current codebase state
 
