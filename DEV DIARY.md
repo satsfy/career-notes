@@ -124,7 +124,13 @@
 	- [x] p1 - Re-reading carefully and cutting out noise
 	- [x] p2 - Slicing off comments
 	- I created a github gist [Survey of Rust Bitcoin Core RPC Client Landscape](https://gist.github.com/satsfy/0e2a3b36a9a00c9439087122dcfb6350) (this could become a blog post)
-	- [ ] p3 - Preparing the final proposal
+	- [x] p3 - Preparing the final proposal
+	- [x] p4 - Preparing the final proposal
+	- [x] p5 - Preparing the final proposal
+	- [x] p6 - Preparing the final proposal
+	- [x] p7 - Preparing the final proposal
+	- At this point in time, it has become a well defensible design proposal
+	- [ ] p8 - Preparing the final proposal
 - rust-bitcoin 
 	- [ ] p1 - Look through existing issues to find some PR for you to do
 		- potential issues:
