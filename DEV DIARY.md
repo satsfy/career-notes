@@ -1,5 +1,5 @@
 **Current goal:** Establish a grant-able foothold in bitcoin open source ecossystem
-- **Subgoal:** Fix bitcoin node types situation in bitcoin core and corepc
+- **Subgoal:** Fix bitcoin node clients and types situation in rust bitcoin, corepc, bitcoin core 
  
 ---------
 
@@ -108,21 +108,29 @@
 	 - [x] p4 -  Address reviews
 	 - [x] p5 -  Address reviews
 - bitcoin core openrpc elision elimination PR 
-	- [ ] Rebase bitcoin core pr https://github.com/bitcoin/bitcoin/pull/34764#issuecomment-4202258634
+	- [x] Rebase bitcoin core pr https://github.com/bitcoin/bitcoin/pull/34764#issuecomment-4202258634
 - Review a PR in rust-bitcoin to get familiarized with the project
 	- Strategically, the best PRs to review right now is rust-bitcoin because I dont really know the project. I need to acquire that context.
 	- [Tobin proposed issue](https://github.com/rust-bitcoin/rust-bitcoin/issues/5969#issuecomment-4209664725) tagging me but someone already implemented it
 	- [x] p1 - Review the PR for issue tobin proposed - https://github.com/rust-bitcoin/rust-bitcoin/pull/5975#pullrequestreview-4085256871
-	- [ ] p2 - Read what I can surrounding the project to understand what it is 
-	- [ ] p3 - Open codebase and identify general components
-	- [ ] p4 - Look through existing issues and development
+	- [x] p2 - Read what I can surrounding the project to understand what it is 
+	- [x] p3 - Open codebase and identify general components
 
 10/4/26:
+- Education:
+	- [x] Read BIPS and optech
+	- [x] Read about rust-bitcoin
 - Join the existing corepc production client creation effort **(RESEARCH -> THINK -> PROPOSE)**
-	- [ ] p9 - Prepare final touches before sending it in 
+	- [x] p1 - Re-reading carefully and cutting out noise
+	- [x] p2 - Slicing off comments
+	- I created a github gist [Survey of Rust Bitcoin Core RPC Client Landscape](https://gist.github.com/satsfy/0e2a3b36a9a00c9439087122dcfb6350) (this could become a blog post)
+	- [ ] p3 - Preparing the final proposal
+- rust-bitcoin 
+	- [ ] p1 - Look through existing issues to find some PR for you to do
+		- potential issues:
+			- https://github.com/rust-bitcoin/rust-bitcoin/issues/5969?issue=rust-bitcoin|rust-bitcoin|5971#issuecomment-4209664725
 - Infra:
 	- [ ] Integrate notes on personal website
-- Review a PR in rust-bitcoin to get familiarized with the project
 
 11/4/26:
 - Education:
