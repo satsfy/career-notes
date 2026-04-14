@@ -147,6 +147,8 @@
 	- [ ] p1 - Preparing the final proposal
 	- "its the integration of asybc into jsonrpc crate that is the hard part, and is dependent of other developers". additionally "corepc is not high priority"
 	- Posted: https://github.com/rust-bitcoin/corepc/issues/507#issuecomment-4240780139
+- ci rbmt migration
+	- merged: https://github.com/rust-bitcoin/corepc/pull/540
 
 14/4/26:
 - Projects: 
