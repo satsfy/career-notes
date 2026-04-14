@@ -144,22 +144,30 @@
 	- [x] p3 - Read up on rust-bitcoin repos ecossytem
 	- [x] p4 - Read up on rust-bitcoin repos ecossytem
 - corepc production client creation design proposal
-	- [ ] p1 - Preparing the final proposal
+	- [x] p1 - Preparing the final proposal
+	- [x] p2 - Preparing the final proposal
+	- [x] p3 - Preparing the final proposal
 	- "its the integration of asybc into jsonrpc crate that is the hard part, and is dependent of other developers". additionally "corepc is not high priority"
 	- Posted: https://github.com/rust-bitcoin/corepc/issues/507#issuecomment-4240780139
 - ci rbmt migration
 	- merged: https://github.com/rust-bitcoin/corepc/pull/540
+- rust-bitcoin:
+	- [x] p1 - Exploring repos and issues
 
 14/4/26:
-- Projects: 
-	- [rust-psbt](https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt)
-	- [rust-miniscript](https://github.com/rust-bitcoin/rust-miniscript
-	- upgrade to bitcoin master (need clarifications) 
-	- find issues on rust bitcoin
 - Pick a project for today:
-	- [ ] Clarify what upgrade to bitcoin master is
-	- [ ] Read through them
-	- [ ] I pick: 
+	- [x] p1 - Read email and figure out what is happening in rust-bitcoin
+	- [x] p2 - Understand release candidates situation and project context
+	- [x] p3 - Understand release candidates situation and project context
+	- We are working to prepare a 1.0 release in six months.
+	- We are 1.0-ing crates in this order: rust-bitcoin's consensus_encoding, units and primitives; then rust-miniscript; then corepc; then psbt.
+	- We don't care about 2.0 at this point in time.
+	- Tobin suggested do a rust bitcoin 0.33 beta rebase into rust-miniscript, but apoelstra suggested otherwise because its too complex.
+	- I will stick to these issues here, labled 1.0: https://github.com/rust-bitcoin/rust-bitcoin/issues?q=is%3Aissue%20state%3Aopen%20label%3A1.0%2CC-units%2CC-primitives%2CC-consensus_encoding
+	- Tobin personally suggested this other issue: https://github.com/rust-bitcoin/rust-bech32/issues/252
+	- [ ] p4 - explore open issues and triage one for solving today. 
+	- Priority for today: easy wins
+	- Today I pick this issue to work on: 
 - Write one PR today. 
 
 - 
