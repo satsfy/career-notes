@@ -5,6 +5,43 @@
 
 ---
 
+I surveyed the current Rust Bitcoin Core RPC client landscape to see what should a corepc client shared based look like, that leaves room for project specific layers on top.
+
+Full survey here: [Survey of Rust Bitcoin Core RPC Client Landscape](https://gist.github.com/satsfy/0e2a3b36a9a00c9439087122dcfb6350).
+
+I looked at `corepc`, the discontinued `rust-bitcoincore-rpc`, `bdk-bitcoind-client`, Alpen Labs' `bitcoind-async-client`, `peer-observer`, `ldk-node`, `rust-lightning`, MystenLabs' `hashi`, `bitcoinresearchkit/brk`, `getfloresta/floresta`, and `bdk-cli`.
+
+## What I found
+
+- The existing `corepc` sync client is used in production even though it was intended for testing, which suggests there is real demand for a reusable client layer.
+- Most downstreams are solving very similar production problems today, but with little shared implementation.
+- Across projects, usage clusters around a relatively small set of roughly 30 RPC methods. A blockchain read path covers BDK, peer-observer. Adding fee estimation, transaction broadcast, and mempool queries covers LDK and similar broadcasting use cases. Wallet RPCs add Alpen-like needs.
+- `bitcoind-async-client` is the clearest production reference point I found. It shows the value of role-based traits, async transport, retries, and connection reuse.
+
+## Proposal
+
+I think corepc should have a bounded shared base client with explicit tradeoffs and non-goals. It is worth owning because the reusable middle layer is real and the cost of not owning it is high. Downstreams rebuild the same pieces, or fall back to the testing client, which increases duplicated effort and bug surface.
+
+However, as soon as `corepc` owns a shared base, considerations such as transport, failure classification, or review surface come in. The 5 projects, with differing needs, patching one client into a pile of junk @tcharding said is real. So it must be minimal. 
+
+A plausible solution could be:
+
+- Async support, addressing integration to jsonrpc. (it can start out from PoC PR #505).
+- Interface: the lowest friction solution is using the existing namespace-oriented api: `blockchain`, `network`, `mining`. Another possiblity is a role-based split like `reader` / `broadcaster` / `wallet` / `signer` such as `bitcoind-async-client`.
+- Maintain testing client existing version split.
+- Structured errors. Distinguish transport / auth / HTTP status / malformed JSON-RPC / Core RPC application error / version-method mismatch / type decode failure / model conversion failure. Every error should indicate whether it is retryable: connection/IO vs non-retryable: auth/protocol.
+- Provide bitreq as optional client transport. Transport should not be left entirely downstream, as sans io solution suggests. The core should be runtime-agnostic, but it should still ship with one optional default HTTP transport. Otherwise every downstream ends up rebuilding it, which is reason enough for people to use the testing client in production. Projects with additional requirements swap in their own transport.
+
+What corepc would own: typed request/response handling, a common method surface, and the operational pieces that multiple downstreams are already rebuilding anyway. It should prevent project-specific policy starts moving upstream.
+
+## Conclusion
+
+Feedback on scope would be especially useful: the concurrent splits (role based split and bitcoin-cli namespace based split), transport boundary. In particular, I would like to ask @tcharding what this layer should explicitly refuse to own so the scope stays maintainable.
+
+If that general shape seems reasonable, I am happy to start a PoC on top of `#505` and use that to make the tradeoffs concrete.
+
+# OLD, IGNORE:
+--------
 ## Problem:
 
 Projects such as peer-observer, floresta, BDK, Alpen, and LDK started or planned their own clients because the shared one was not positioned as a supported production client. Some are using the existing corepc client, made for integration test only, because it serves their needs well enough.

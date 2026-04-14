@@ -130,16 +130,34 @@
 	- [x] p6 - Preparing the final proposal
 	- [x] p7 - Preparing the final proposal
 	- At this point in time, it has become a well defensible design proposal
-	- [ ] p8 - Preparing the final proposal
-- rust-bitcoin 
-	- [ ] p1 - Look through existing issues to find some PR for you to do
-		- potential issues:
-			- https://github.com/rust-bitcoin/rust-bitcoin/issues/5969?issue=rust-bitcoin|rust-bitcoin|5971#issuecomment-4209664725
-- Infra:
-	- [ ] Integrate notes on personal website
 
 11/4/26:
-- Education:
-	- [ ] Read a BIP
-- Blog:
-	- [ ] Think of a blog post to write...
+- Offline
+
+12/4/26:
+- Offline: Domingo
+
+13/4/26:
+- Prepare for upcoming rust-bitcoin meeting
+	- [x] p1 - Read up on rust-bitcoin repos ecossytem
+	- [x] p2 - Read up on rust-bitcoin repos ecossytem
+	- [x] p3 - Read up on rust-bitcoin repos ecossytem
+	- [x] p4 - Read up on rust-bitcoin repos ecossytem
+- corepc production client creation design proposal
+	- [ ] p1 - Preparing the final proposal
+	- "its the integration of asybc into jsonrpc crate that is the hard part, and is dependent of other developers". additionally "corepc is not high priority"
+	- Posted: https://github.com/rust-bitcoin/corepc/issues/507#issuecomment-4240780139
+
+14/4/26:
+- Projects: 
+	- [rust-psbt](https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt)
+	- [rust-miniscript](https://github.com/rust-bitcoin/rust-miniscript
+	- upgrade to bitcoin master (need clarifications) 
+	- find issues on rust bitcoin
+- Pick a project for today:
+	- [ ] Clarify what upgrade to bitcoin master is
+	- [ ] Read through them
+	- [ ] I pick: 
+- Write one PR today. 
+
+- 
