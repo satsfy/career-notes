@@ -175,6 +175,7 @@
 	- [x] p3 - familiarize with lib
 	- [x] p4 - create a manual test to fix 
 	- [x] p5 - keep cutting down the list to 0
+	- FTR there are hundreds of mutations test failing. Apparently this repo had mutation tests before, but then someone switched to `cargo-mutants` and hundreds of new errors appeared.
 	- [ ] p6 - keep cutting down the list to 0
 - New task: The previous PR is going great, while a mutation test runs or fixes are being developed i have the bandwidth for another small task
-	- [ ] p1 - explore and find in rust-bitcoin given filters listed above
+	- New target: will finish PR open since https://github.com/rust-bitcoin/rust-bech32/pull/234
