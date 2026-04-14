@@ -162,12 +162,18 @@
 	- We are working to prepare a 1.0 release in six months.
 	- We are 1.0-ing crates in this order: rust-bitcoin's consensus_encoding, units and primitives; then rust-miniscript; then corepc; then psbt.
 	- We don't care about 2.0 at this point in time.
-	- Tobin suggested do a rust bitcoin 0.33 beta rebase into rust-miniscript, but apoelstra suggested otherwise because its too complex.
+	- Tobin suggested do a rust bitcoin 0.33 beta rebase into rust-miniscript, but apoelstra suggested against new dev doing it because its too complex.
+		- MAYBE I could do a portion of it.
 	- I will stick to these issues here, labled 1.0: https://github.com/rust-bitcoin/rust-bitcoin/issues?q=is%3Aissue%20state%3Aopen%20label%3A1.0%2CC-units%2CC-primitives%2CC-consensus_encoding
 	- Tobin personally suggested this other issue: https://github.com/rust-bitcoin/rust-bech32/issues/252
-	- [ ] p4 - explore open issues and triage one for solving today. 
+	- [x] p4 - explore open issues and triage one for solving today. 
 	- Priority for today: easy wins
-	- Today I pick this issue to work on: 
-- Write one PR today. 
-
-- 
+	- Today I pick this issue to work on: https://github.com/rust-bitcoin/rust-bech32/issues/252
+- New task: Write one PR today
+	- [x] p1 - reproduce locally, find similar issues for reference like [1](https://github.com/rust-bitcoin/rust-bitcoin/pull/5193), [2](https://github.com/rust-bitcoin/rust-bitcoin/pull/5126), [3](https://github.com/rust-bitcoin/rust-bitcoin/pull/5000), [4](https://github.com/rust-bitcoin/rust-bitcoin/pull/5335/changes)
+	- [x] p2 - explore how these are usually solve (how the unit tests are made)
+	- [x] p3 - familiarize with lib
+	- [x] p4 - create a manual test to fix 
+	- [x] p5 - keep cutting down the list to 0
+- New task: The previous PR is going great, while a mutation test runs or fixes are being developed i have the bandwidth for another small task
+	- [ ] p1 - explore and find in rust-bitcoin given filters listed above
