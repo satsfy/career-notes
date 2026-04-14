@@ -175,5 +175,6 @@
 	- [x] p3 - familiarize with lib
 	- [x] p4 - create a manual test to fix 
 	- [x] p5 - keep cutting down the list to 0
+	- [ ] p6 - keep cutting down the list to 0
 - New task: The previous PR is going great, while a mutation test runs or fixes are being developed i have the bandwidth for another small task
 	- [ ] p1 - explore and find in rust-bitcoin given filters listed above
