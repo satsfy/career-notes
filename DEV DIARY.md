@@ -36,7 +36,7 @@
 - Offline: Páscoa
 
 6/4/26:
-- Wrap up corepc ci migration to cargo-rbmt
+- New task: Wrap up corepc ci migration to cargo-rbmt
 	- [x] p1 - fix the tests failing on [my local branch](https://github.com/satsfy/corepc/pull/27)
 	- [x] p2 - fix the tests failing on [my local branch](https://github.com/satsfy/corepc/pull/27)
 	- [x] p3 - fix the tests failing on [my local branch](https://github.com/satsfy/corepc/pull/27)
@@ -60,7 +60,7 @@
 	- [x] Read corepc open issues and write a report
 
 7/4/26:
-- Wrap up corepc ci migration to cargo-rbmt
+- Running task: Wrap up corepc ci migration to cargo-rbmt
 	- Maintainers receptive to the idea
 	- [x] p1 - shaving off the PR
 	- [x] p2 - shaving off the PR
@@ -97,11 +97,11 @@
 		- So I have 1. research about the rust bitcoin rpc client ecosystem 2. a proposal for the definitive version of this client for corepc 3. codegen proposal. I'm considering how to present these...
 		- I have decided to separate codegen proposal into a separate issue for later
 	- Postponed - I need more mind to think about this, will leave for later
- - corepc ci migration to cargo-rbmt
+ - Running task: corepc ci migration to cargo-rbmt
 	 - [x] p1-  Address reviews
 
 9/4/26:
- - corepc ci migration to cargo-rbmt
+ - Running task: corepc ci migration to cargo-rbmt
 	 - [x] p1 -  Address reviews
 	 - [x] p2 -  Address reviews
 	 - [x] p3 -  Address reviews
@@ -183,21 +183,27 @@
 	- [x] p2 - get all ci to green
 
 15/4/26:
-- New task: [finish this cargo ci migration to rbmt in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/pull/234)
+- Running task: [finish this cargo ci migration to rbmt in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/pull/234)
 	- [x] p1 - Integrating the corepc changes to cut out line of code from current solution
 	- [x] p2 - get all ci to green
 	- [x] p3 - Verify that functionally does what its supposed to
 	- [x] p4 - Cut down modification to bare mininmum
-	- [ ] p5 - Write up PR
-- New task: [Fix all mutation test problems in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/issues/252)
+	- [x] p5 - Polishing
+	- [x] p6 - Write up PR 
+	- Open PR: https://github.com/rust-bitcoin/rust-bech32/pull/254
+- Running task: [Fix all mutation test problems in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/issues/252)
 	- [x] p1 - keep cutting down the list to 0
 	- [x] p2 - Carefully review test changes, reducing modifications to minimum
-	- [ ] p3 - I think I found a bug in bech32, investigating it carefully... 
-- New task: [refactor encoder/decoder module in rust bitcoin](https://github.com/rust-bitcoin/rust-bitcoin/pull/5902)
-	- [ ] p1 - Contextualize
+	- [x] p3 - I think I found a bug in bech32, investigating it carefully...
+	- [x] p4 - Reducing loose exceptions in mutants rules
+	- [ ] p5 - Reviewing the 75 new tests and 1 modified test
 - New task: fix a off by one error detected in rust-bech32
-	- [ ] p1 - Isolating the chagne from mutation tests PR into its own PR.
-
+	- [x] p1 - Isolating the chagne from mutation tests PR into its own PR.
+	- [x] p2 - Open the PR https://github.com/rust-bitcoin/rust-bech32/pull/253
+- New task: [refactor encoder/decoder module in rust bitcoin](https://github.com/rust-bitcoin/rust-bitcoin/pull/5902)
+	- [x] p1 - Learn more about the PR
+	- [x] p2 - Pick tobin commits, format, consider how to implement them
+	- [ ] p3 - polish final version and write up the PR name + desc
 
 16/4/26:
 - Blog: writing "Architectural Tradeoffs in Designing Bitcoin Clients" post
