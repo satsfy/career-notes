@@ -191,6 +191,7 @@
 	- [x] p5 - Polishing
 	- [x] p6 - Write up PR 
 	- Open PR: https://github.com/rust-bitcoin/rust-bech32/pull/254
+	- A follow up PR, if this is accepted, could be https://github.com/satsfy/rust-bech32/pull/3
 - Running task: [Fix all mutation test problems in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/issues/252)
 	- [x] p1 - keep cutting down the list to 0
 	- [x] p2 - Carefully review test changes, reducing modifications to minimum
@@ -207,7 +208,9 @@
 
 16/4/26:
 - Blog: writing "Architectural Tradeoffs in Designing Bitcoin Clients" post
+	- [ ] p0 - is this even worth my time? scope out the research to make it right
 	- [ ] p1 - Include some materials and previous research
 	- [ ] p2 - Synthesize
 	- [ ] p3 - Develop the thesis
 	- [ ] p4 - Polish and publish
+
