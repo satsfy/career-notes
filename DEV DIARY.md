@@ -169,13 +169,39 @@
 	- [x] p4 - explore open issues and triage one for solving today. 
 	- Priority for today: easy wins
 	- Today I pick this issue to work on: https://github.com/rust-bitcoin/rust-bech32/issues/252
-- New task: Write one PR today
+- New task: [Fix all mutation test problems in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/issues/252)
 	- [x] p1 - reproduce locally, find similar issues for reference like [1](https://github.com/rust-bitcoin/rust-bitcoin/pull/5193), [2](https://github.com/rust-bitcoin/rust-bitcoin/pull/5126), [3](https://github.com/rust-bitcoin/rust-bitcoin/pull/5000), [4](https://github.com/rust-bitcoin/rust-bitcoin/pull/5335/changes)
 	- [x] p2 - explore how these are usually solve (how the unit tests are made)
 	- [x] p3 - familiarize with lib
 	- [x] p4 - create a manual test to fix 
 	- [x] p5 - keep cutting down the list to 0
 	- FTR there are hundreds of mutations test failing. Apparently this repo had mutation tests before, but then someone switched to `cargo-mutants` and hundreds of new errors appeared.
-	- [ ] p6 - keep cutting down the list to 0
-- New task: The previous PR is going great, while a mutation test runs or fixes are being developed i have the bandwidth for another small task
-	- New target: will finish PR open since https://github.com/rust-bitcoin/rust-bech32/pull/234
+	- [x] p6 - keep cutting down the list to 0
+	- The previous PR is going great, while a mutation test runs or fixes are being developed i have the bandwidth for another small task
+- New task: [finish this cargo ci migration to rbmt in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/pull/234)
+	- [x] p1 - Integrating the corepc changes to cut out line of code from current solution
+	- [x] p2 - get all ci to green
+
+15/4/26:
+- New task: [finish this cargo ci migration to rbmt in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/pull/234)
+	- [x] p1 - Integrating the corepc changes to cut out line of code from current solution
+	- [x] p2 - get all ci to green
+	- [x] p3 - Verify that functionally does what its supposed to
+	- [x] p4 - Cut down modification to bare mininmum
+	- [ ] p5 - Write up PR
+- New task: [Fix all mutation test problems in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/issues/252)
+	- [x] p1 - keep cutting down the list to 0
+	- [x] p2 - Carefully review test changes, reducing modifications to minimum
+	- [ ] p3 - I think I found a bug in bech32, investigating it carefully... 
+- New task: [refactor encoder/decoder module in rust bitcoin](https://github.com/rust-bitcoin/rust-bitcoin/pull/5902)
+	- [ ] p1 - Contextualize
+- New task: fix a off by one error detected in rust-bech32
+	- [ ] p1 - Isolating the chagne from mutation tests PR into its own PR.
+
+
+16/4/26:
+- Blog: writing "Architectural Tradeoffs in Designing Bitcoin Clients" post
+	- [ ] p1 - Include some materials and previous research
+	- [ ] p2 - Synthesize
+	- [ ] p3 - Develop the thesis
+	- [ ] p4 - Polish and publish
