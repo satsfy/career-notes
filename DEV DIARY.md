@@ -229,12 +229,19 @@
 17/4/26:
 - Education:
 	- [ ] Read Optech
+- Writing codegen proposal
+	- [x] p1 - Reserach and write a simple proposal to send via email before issue
+	- [x] p2 - Looking for objections
+	- [ ] p3 - Final writeup
 - Review 2 PRs in corepc:
 	- [x] p1 - Choose valuable target and read context
-	- Target 1: https://github.com/rust-bitcoin/corepc/pull/558
-	- [x] p2 - Considering client design 
-	- Wrote https://github.com/rust-bitcoin/corepc/issues/555#issuecomment-4269391437
-	- [ ] p3 - Looking for objections
+	- [x] p2 - Test the code
+	- [x] p3 - Try to find any design flaws
+	- Reviewed: https://github.com/rust-bitcoin/corepc/pull/558#pullrequestreview-4130370466
+	- Reviwed: https://github.com/rust-bitcoin/corepc/pull/551
+- Consider client design
+	- [x] p1 - Read and thought about tradeoffs
+	- Wrote issue comment https://github.com/rust-bitcoin/corepc/issues/555#issuecomment-4269391437
 - Running task: fix a off by one error detected in rust-bech32
 	- Merged PR: https://github.com/rust-bitcoin/rust-bech32/pull/253#event-24608128810
 - Running task: [Fix all mutation test problems in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/issues/252)
