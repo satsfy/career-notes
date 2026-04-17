@@ -221,15 +221,18 @@
 	- [x] p14 - Running mutation tests and polishing the PR
 	- [x] p15 - Verifying every mutant exclusion
 	- [x] p16 - Verifying every mutant exclusion
-	- [ ] p17 - Polishing final version renaming what needs to change
+	- [x] p17 - Polishing final version renaming what needs to change
+	- Open PR: https://github.com/rust-bitcoin/rust-bech32/pull/255
 - Running task: [finish this cargo ci migration to rbmt in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/pull/234)
 	- [x] p7 - Address PR reviews
+
+17/4/26:
+- New Task: https://github.com/rust-bitcoin/corepc/issues/58 (tip from Tobin)
+	- [ ] p1 - Acquire context and start
 - New Task: https://github.com/rust-bitcoin/corepc/issues/553#issuecomment-4256506099
 	- [ ] p1 - Acquire context and start
 - New Task: https://github.com/rust-bitcoin/corepc/issues/552#issuecomment-4256454586
 	- [ ] p1 - Acquire context and start
-
-17/4/26:
 - Running task: [refactor encoder/decoder module in rust bitcoin](https://github.com/rust-bitcoin/rust-bitcoin/pull/5902)
 	- [ ] p5 - verify the change I did is really what is supposed to have happened
 	- [ ] p6 - write up the PR name + desc
