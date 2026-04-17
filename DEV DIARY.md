@@ -197,20 +197,57 @@
 	- [x] p2 - Carefully review test changes, reducing modifications to minimum
 	- [x] p3 - I think I found a bug in bech32, investigating it carefully...
 	- [x] p4 - Reducing loose exceptions in mutants rules
-	- [ ] p5 - Reviewing the 75 new tests and 1 modified test
 - New task: fix a off by one error detected in rust-bech32
 	- [x] p1 - Isolating the chagne from mutation tests PR into its own PR.
-	- [x] p2 - Open the PR https://github.com/rust-bitcoin/rust-bech32/pull/253
+	- [x] p2 - polish, commit history, write comment and title
+	- Open the PR https://github.com/rust-bitcoin/rust-bech32/pull/253
 - New task: [refactor encoder/decoder module in rust bitcoin](https://github.com/rust-bitcoin/rust-bitcoin/pull/5902)
 	- [x] p1 - Learn more about the PR
 	- [x] p2 - Pick tobin commits, format, consider how to implement them
-	- [ ] p3 - polish final version and write up the PR name + desc
+	- [x] p3 - polish final version and 
+	- [x] p4 - verify the change I did is really what is supposed to have happened
 
 16/4/26:
+- Running task: [Fix all mutation test problems in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/issues/252)
+	- [x] p5 - Reviewing the 75 new tests and 1 modified test
+	- [x] p6 - Cutting down the amount of tests
+	- [x] p7 - Cutting down the amount of tests
+	- [x] p8 - Running mutation tests and polishing the PR
+	- [x] p9 - Running mutation tests and polishing the PR
+	- [x] p10 - Running mutation tests and polishing the PR
+	- [x] p11 - Running mutation tests and polishing the PR
+	- [x] p12 - Running mutation tests and polishing the PR
+	- [x] p13 - Running mutation tests and polishing the PR
+	- [x] p14 - Running mutation tests and polishing the PR
+	- [x] p15 - Verifying every mutant exclusion
+	- [x] p16 - Verifying every mutant exclusion
+	- [ ] p17 - Polishing final version renaming what needs to change
+- Running task: [finish this cargo ci migration to rbmt in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/pull/234)
+	- [x] p7 - Address PR reviews
+- New Task: https://github.com/rust-bitcoin/corepc/issues/553#issuecomment-4256506099
+	- [ ] p1 - Acquire context and start
+- New Task: https://github.com/rust-bitcoin/corepc/issues/552#issuecomment-4256454586
+	- [ ] p1 - Acquire context and start
+
+17/4/26:
+- Running task: [refactor encoder/decoder module in rust bitcoin](https://github.com/rust-bitcoin/rust-bitcoin/pull/5902)
+	- [ ] p5 - verify the change I did is really what is supposed to have happened
+	- [ ] p6 - write up the PR name + desc
+	- [ ] p7 - commit hist + write up the PR name + desc
+- Review 2 PRs in corepc:
+	- [ ] p1 - Choose valuable target and read context  
+
+
+---
+
+# Later
+
 - Blog: writing "Architectural Tradeoffs in Designing Bitcoin Clients" post
 	- [ ] p0 - is this even worth my time? scope out the research to make it right
 	- [ ] p1 - Include some materials and previous research
 	- [ ] p2 - Synthesize
 	- [ ] p3 - Develop the thesis
 	- [ ] p4 - Polish and publish
+
+
 
