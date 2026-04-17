@@ -227,8 +227,8 @@
 	- [x] p7 - Address PR reviews
 
 17/4/26:
-- Education:
-	- [ ] Read Optech
+- Running task: fix a off by one error detected in rust-bech32
+	- Merged PR: https://github.com/rust-bitcoin/rust-bech32/pull/253#event-24608128810
 - Writing codegen proposal
 	- [x] p1 - Reserach and write a simple proposal to send via email before issue
 	- [x] p2 - Looking for objections
@@ -238,12 +238,11 @@
 	- [x] p2 - Test the code
 	- [x] p3 - Try to find any design flaws
 	- Reviewed: https://github.com/rust-bitcoin/corepc/pull/558#pullrequestreview-4130370466
-	- Reviwed: https://github.com/rust-bitcoin/corepc/pull/551
+	- Reviewed: https://github.com/rust-bitcoin/corepc/pull/551
+    - Reviewed: https://github.com/rust-bitcoin/corepc/pull/557
 - Consider client design
 	- [x] p1 - Read and thought about tradeoffs
 	- Wrote issue comment https://github.com/rust-bitcoin/corepc/issues/555#issuecomment-4269391437
-- Running task: fix a off by one error detected in rust-bech32
-	- Merged PR: https://github.com/rust-bitcoin/rust-bech32/pull/253#event-24608128810
 - Running task: [Fix all mutation test problems in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/issues/252)
 	- [ ] p1 - Address reviews
 - New Task: https://github.com/rust-bitcoin/corepc/issues/58 (tip from Tobin)
@@ -256,7 +255,6 @@
 	- [ ] p5 - verify the change I did is really what is supposed to have happened
 	- [ ] p6 - write up the PR name + desc
 	- [ ] p7 - commit hist + write up the PR name + desc
-
 - Running task: [finish this cargo ci migration to rbmt in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/pull/234)
 	- [ ] p8 - Grab latest version of rbmt
 
@@ -264,8 +262,6 @@
 ---
 
 # Backlog
-
-
 - Issues:
 	- https://github.com/rust-bitcoin/corepc/issues/507
 	- https://github.com/rust-bitcoin/corepc/issues/538
@@ -277,9 +273,9 @@
 	- https://github.com/rust-bitcoin/corepc/issues/411
 	- https://github.com/rust-bitcoin/corepc/issues/341
 	- https://github.com/rust-bitcoin/corepc/pull/533
-
+- Education:
+	- [ ] Read new Optech
 - Blog:  
-	-  
 	- [ ] "Architectural Tradeoffs in Designing Bitcoin Clients" post
 	- [ ] 
 
