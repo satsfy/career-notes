@@ -227,6 +227,18 @@
 	- [x] p7 - Address PR reviews
 
 17/4/26:
+- Education:
+	- [ ] Read Optech
+- Review 2 PRs in corepc:
+	- [x] p1 - Choose valuable target and read context
+	- Target 1: https://github.com/rust-bitcoin/corepc/pull/558
+	- [x] p2 - Considering client design 
+	- Wrote https://github.com/rust-bitcoin/corepc/issues/555#issuecomment-4269391437
+	- [ ] p3 - Looking for objections
+- Running task: fix a off by one error detected in rust-bech32
+	- Merged PR: https://github.com/rust-bitcoin/rust-bech32/pull/253#event-24608128810
+- Running task: [Fix all mutation test problems in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/issues/252)
+	- [ ] p1 - Address reviews
 - New Task: https://github.com/rust-bitcoin/corepc/issues/58 (tip from Tobin)
 	- [ ] p1 - Acquire context and start
 - New Task: https://github.com/rust-bitcoin/corepc/issues/553#issuecomment-4256506099
@@ -237,20 +249,32 @@
 	- [ ] p5 - verify the change I did is really what is supposed to have happened
 	- [ ] p6 - write up the PR name + desc
 	- [ ] p7 - commit hist + write up the PR name + desc
-- Review 2 PRs in corepc:
-	- [ ] p1 - Choose valuable target and read context  
+
+- Running task: [finish this cargo ci migration to rbmt in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/pull/234)
+	- [ ] p8 - Grab latest version of rbmt
 
 
 ---
 
-# Later
+# Backlog
 
-- Blog: writing "Architectural Tradeoffs in Designing Bitcoin Clients" post
-	- [ ] p0 - is this even worth my time? scope out the research to make it right
-	- [ ] p1 - Include some materials and previous research
-	- [ ] p2 - Synthesize
-	- [ ] p3 - Develop the thesis
-	- [ ] p4 - Polish and publish
+
+- Issues:
+	- https://github.com/rust-bitcoin/corepc/issues/507
+	- https://github.com/rust-bitcoin/corepc/issues/538
+	- https://github.com/rust-bitcoin/corepc/issues/391
+	- https://github.com/rust-bitcoin/corepc/issues/386
+	- https://github.com/rust-bitcoin/corepc/pull/528/changes
+	- https://github.com/rust-bitcoin/corepc/issues/527
+	- https://github.com/rust-bitcoin/corepc/issues/510
+	- https://github.com/rust-bitcoin/corepc/issues/411
+	- https://github.com/rust-bitcoin/corepc/issues/341
+	- https://github.com/rust-bitcoin/corepc/pull/533
+
+- Blog:  
+	-  
+	- [ ] "Architectural Tradeoffs in Designing Bitcoin Clients" post
+	- [ ] 
 
 
 
