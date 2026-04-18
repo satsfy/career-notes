@@ -233,51 +233,49 @@
 	- [x] p1 - Reserach and write a simple proposal to send via email before issue
 	- [x] p2 - Looking for objections
 	- [ ] p3 - Final writeup
-- Review 2 PRs in corepc:
+- Review 4 PRs in corepc:
+	- Reviewed: https://github.com/rust-bitcoin/corepc/pull/551
 	- [x] p1 - Choose valuable target and read context
 	- [x] p2 - Test the code
 	- [x] p3 - Try to find any design flaws
 	- Reviewed: https://github.com/rust-bitcoin/corepc/pull/558#pullrequestreview-4130370466
-	- Reviewed: https://github.com/rust-bitcoin/corepc/pull/551
+	- [x] p4 - Reviewing...
     - Reviewed: https://github.com/rust-bitcoin/corepc/pull/557
+	- [x] p5 - Reviewing...
+    - Reviewing: https://github.com/rust-bitcoin/corepc/pull/556
 - Consider client design
 	- [x] p1 - Read and thought about tradeoffs
 	- Wrote issue comment https://github.com/rust-bitcoin/corepc/issues/555#issuecomment-4269391437
-- Running task: [Fix all mutation test problems in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/issues/252)
-	- [ ] p1 - Address reviews
 - New Task: https://github.com/rust-bitcoin/corepc/issues/58 (tip from Tobin)
-	- [ ] p1 - Acquire context and start
+	- [x] p1 - Acquire context and start
+	- [x] p2 - identify and import bitcoin core tests
 - New Task: https://github.com/rust-bitcoin/corepc/issues/553#issuecomment-4256506099
-	- [ ] p1 - Acquire context and start
+	- Someone did it first, I'll review it next
+- New Review: https://github.com/rust-bitcoin/corepc/pull/556
+	- [x] p1 - Acquire context and inspect the code
+	- This one proved beyond my knowledge.
 - New Task: https://github.com/rust-bitcoin/corepc/issues/552#issuecomment-4256454586
-	- [ ] p1 - Acquire context and start
+	- [x] p1 - Acquire context and start
+	- [x] p2 - Learn more about features in rust  
+
+18/4/26:
+- Running task: [Fix all mutation test problems in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/issues/252)
+	- [x] p1 - Address reviews
+	- [x] p2 -  Address reviews
+	- [x] p3 - Address reviews
+- Running Task: https://github.com/rust-bitcoin/corepc/issues/58
+	- [ ] p3 - inspect claude attempt to convert all these tests for approach
+- New Task: https://github.com/rust-bitcoin/corepc/issues/552#issuecomment-4256454586
+	- [ ] p1 - Considering implementation
 - Running task: [refactor encoder/decoder module in rust bitcoin](https://github.com/rust-bitcoin/rust-bitcoin/pull/5902)
 	- [ ] p5 - verify the change I did is really what is supposed to have happened
 	- [ ] p6 - write up the PR name + desc
 	- [ ] p7 - commit hist + write up the PR name + desc
 - Running task: [finish this cargo ci migration to rbmt in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/pull/234)
-	- [ ] p8 - Grab latest version of rbmt
+	- [ ] p8 - Address review by grabbing latest version of rbmt
+- Review: https://github.com/rust-bitcoin/corepc/pull/556
+	- [ ] p2 - Acquire context and inspect the code
 
-
----
-
-# Backlog
-- Issues:
-	- https://github.com/rust-bitcoin/corepc/issues/507
-	- https://github.com/rust-bitcoin/corepc/issues/538
-	- https://github.com/rust-bitcoin/corepc/issues/391
-	- https://github.com/rust-bitcoin/corepc/issues/386
-	- https://github.com/rust-bitcoin/corepc/pull/528/changes
-	- https://github.com/rust-bitcoin/corepc/issues/527
-	- https://github.com/rust-bitcoin/corepc/issues/510
-	- https://github.com/rust-bitcoin/corepc/issues/411
-	- https://github.com/rust-bitcoin/corepc/issues/341
-	- https://github.com/rust-bitcoin/corepc/pull/533
-- Education:
-	- [ ] Read new Optech
-- Blog:  
-	- [ ] "Architectural Tradeoffs in Designing Bitcoin Clients" post
-	- [ ] 
-
-
-
+20/4/26:
+- Writing codegen proposal
+	- [ ] p3 - Final writeup and present to maintainer in person
