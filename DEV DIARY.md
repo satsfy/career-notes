@@ -276,6 +276,9 @@
 - Review: https://github.com/rust-bitcoin/corepc/pull/556
 	- [ ] p2 - Acquire context and inspect the code
 
+19/4/26:
+- Offline: sunday
+
 20/4/26:
 - Writing codegen proposal
 	- [ ] p3 - Final writeup and present to maintainer in person
