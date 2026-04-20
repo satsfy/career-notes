@@ -278,6 +278,7 @@
 
 19/4/26:
 - Offline: sunday
+- Merged: https://github.com/rust-bitcoin/rust-bech32/pull/255
 
 20/4/26:
 - Writing codegen proposal
