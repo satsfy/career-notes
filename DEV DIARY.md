@@ -271,18 +271,20 @@
 20/4/26:
 - Education:
 	- [x] Read posts in Delving Bitcoin
+- Running task: [finish this cargo ci migration to rbmt in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/pull/234)
+	- [x] p8 - Address review by grabbing latest version of rbmt
+	- [x] p9 - Fixing MSRV version, evaluating reviewer suggestion
 - Running Task: https://github.com/rust-bitcoin/corepc/issues/58
-	- [ ] p3 - inspect claude attempt to convert all these tests for approach
-- New Task: https://github.com/rust-bitcoin/corepc/issues/552#issuecomment-4256454586
-	- [ ] p1 - Considering implementation
+	- [x] p3 - inspect claude attempt to convert all these tests for approach
+	- [ ] p4 - Investigating 7 test failures in corepc
+- Running Task: https://github.com/rust-bitcoin/corepc/issues/552#issuecomment-4256454586
+	- [x] p1 - Considering implementation
+	- [x] p2 - Attempt first version
+	- [ ] p3 - Evaluate if we are on the right track
 - Running task: [refactor encoder/decoder module in rust bitcoin](https://github.com/rust-bitcoin/rust-bitcoin/pull/5902)
 	- [ ] p5 - verify the change I did is really what is supposed to have happened
 	- [ ] p6 - write up the PR name + desc
 	- [ ] p7 - commit hist + write up the PR name + desc
-- Running task: [finish this cargo ci migration to rbmt in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/pull/234)
-	- [ ] p8 - Address review by grabbing latest version of rbmt
-- Review: https://github.com/rust-bitcoin/corepc/pull/556
-	- [ ] p2 - Acquire context and inspect the code
 
 21/4/26:
 - Writing codegen proposal
