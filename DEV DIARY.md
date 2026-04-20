@@ -232,7 +232,6 @@
 - Writing codegen proposal
 	- [x] p1 - Reserach and write a simple proposal to send via email before issue
 	- [x] p2 - Looking for objections
-	- [ ] p3 - Final writeup
 - Review 4 PRs in corepc:
 	- Reviewed: https://github.com/rust-bitcoin/corepc/pull/551
 	- [x] p1 - Choose valuable target and read context
@@ -263,6 +262,15 @@
 	- [x] p1 - Address reviews
 	- [x] p2 -  Address reviews
 	- [x] p3 - Address reviews
+
+
+19/4/26:
+- Offline: sunday
+- Merged: https://github.com/rust-bitcoin/rust-bech32/pull/255
+
+20/4/26:
+- Education:
+	- [x] Read posts in Delving Bitcoin
 - Running Task: https://github.com/rust-bitcoin/corepc/issues/58
 	- [ ] p3 - inspect claude attempt to convert all these tests for approach
 - New Task: https://github.com/rust-bitcoin/corepc/issues/552#issuecomment-4256454586
@@ -276,10 +284,7 @@
 - Review: https://github.com/rust-bitcoin/corepc/pull/556
 	- [ ] p2 - Acquire context and inspect the code
 
-19/4/26:
-- Offline: sunday
-- Merged: https://github.com/rust-bitcoin/rust-bech32/pull/255
-
-20/4/26:
+21/4/26:
 - Writing codegen proposal
-	- [ ] p3 - Final writeup and present to maintainer in person
+	- [ ] p3 - Final writeup and present to maintainer in person.
+	- [ ] p4 - Put production client considerations (like validations) in issue 
