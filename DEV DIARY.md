@@ -280,13 +280,32 @@
 - Running Task: https://github.com/rust-bitcoin/corepc/issues/552#issuecomment-4256454586
 	- [x] p1 - Considering implementation
 	- [x] p2 - Attempt first version
-	- [ ] p3 - Evaluate if we are on the right track
+	- [x] p3 - Evaluate if we are on the right track
 - Running task: [refactor encoder/decoder module in rust bitcoin](https://github.com/rust-bitcoin/rust-bitcoin/pull/5902)
-	- [ ] p5 - verify the change I did is really what is supposed to have happened
-	- [ ] p6 - write up the PR name + desc
-	- [ ] p7 - commit hist + write up the PR name + desc
+	- [x] p5 - verify the change I did is really what is supposed to have happened
+	- [x] p6 - write up the PR name + desc
+	- [x] p7 - commit hist + write up the PR name + desc
+- New task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
+	- [x] p1 - Reproduce the issue
+	- [x] p2 - Investigate the codebase
+	- [x] p3 - Work on solving each of the 62 prerelease problems
 
 21/4/26:
-- Writing codegen proposal
-	- [ ] p3 - Final writeup and present to maintainer in person.
-	- [ ] p4 - Put production client considerations (like validations) in issue 
+- Running Task: https://github.com/rust-bitcoin/corepc/issues/58
+	- [x] p3 - inspect claude attempt to convert all these tests for approach
+	- [x] p4 - Increasing test surface so that more error appear
+	- [ ] p5 - Section off the changes into specific PRs
+- Running Task: https://github.com/rust-bitcoin/corepc/issues/552#issuecomment-4256454586
+	- [x] p4 - Fix CI with acceptance criteria
+	- [x] p5 - Polishing and cutting LoC from PR, Slicing off the formatting changes, 
+	- [ ] p6 - Final review of PR
+- Running task: [refactor encoder/decoder module in rust bitcoin](https://github.com/rust-bitcoin/rust-bitcoin/pull/5902)
+	- [x] p8 - triple check this change
+	- Open PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6052
+- Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
+	- [x] p4 - Work on solving each of the 62 prerelease problems
+	- [ ] p5 - Organized the changes into PRs
+- Prepare for maintainer meeting:
+	- [ ] p1 - Write talking points:
+	- [ ] p3 - Writing codegen proposal and present to maintainer in person.
+- [ ] Put production client considerations (like validations) in issue 
