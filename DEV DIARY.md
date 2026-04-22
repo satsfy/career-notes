@@ -301,25 +301,37 @@
 - Running Task: https://github.com/rust-bitcoin/corepc/issues/552#issuecomment-4256454586
 	- [x] p4 - Fix CI with acceptance criteria
 	- [x] p5 - Polishing and cutting LoC from PR, Slicing off the formatting changes, 
-	- [ ] p6 - Final review of PR
 - Running task: [refactor encoder/decoder module in rust bitcoin](https://github.com/rust-bitcoin/rust-bitcoin/pull/5902)
 	- [x] p8 - triple check this change
 	- Open PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6052
 - Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
 	- [x] p4 - Work on solving each of the 62 prerelease problems
-	- [ ] p5 - Organized the changes into PRs
 - Prepare for maintainer meeting:
 	- [x] p1 - Write talking points:
 	- [x] p3 - Writing codegen proposal and present to maintainer in person.
 	- We got approval for codegen task!
 - Codegen:
 	-  [x] p1 - Patch up codegen repo for https://github.com/satsfy/rust-btc-codegen 
-- [ ] Put production client considerations (like validations) in issue 
 
 
 22/4/26:
-- Use morning intelligence on learning PSBT
-	- [ ]
+- Running Task: https://github.com/rust-bitcoin/rust-bech32/pull/254#issuecomment-4289786340
+	- [ ] p1 - Migrate nightly update to rbmt 
+	- [x] p2 - Unify embedded nightly version
+	- [x] p3 - Test the solution
+	- Open PR: https://github.com/rust-bitcoin/rust-bech32
+- Running Task: https://github.com/rust-bitcoin/corepc/issues/58
+	- [ ] p8 - Verify solution carefully
+- Running Task: https://github.com/rust-bitcoin/corepc/issues/552#issuecomment-4256454586
+	- [ ] p6 - Final review of PR
 - New Task: rust-bitcoin issue
-	-  [ ] Select a rust-bitcoin issue to solve
+	- [ ] Select a rust-bitcoin issue to solve
+- [ ] Put production client considerations (like validations) in issue 
 
+23/4/26:
+- Use morning on learning PSBT repo:
+	- [ ] p1 - Execute and start writing a report of all the software 
+- Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
+	- [ ] p5 - Organized the changes into PRs
+- Codegen: https://github.com/satsfy/rust-btc-codegen
+	- [ ] p1 - Integrate in corepc by renaming corepc client types
