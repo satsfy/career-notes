@@ -291,10 +291,13 @@
 	- [x] p3 - Work on solving each of the 62 prerelease problems
 
 21/4/26:
+- Merged PR: https://github.com/rust-bitcoin/rust-bech32/pull/254
 - Running Task: https://github.com/rust-bitcoin/corepc/issues/58
 	- [x] p3 - inspect claude attempt to convert all these tests for approach
 	- [x] p4 - Increasing test surface so that more error appear
-	- [ ] p5 - Section off the changes into specific PRs
+	- [x] p5 - Section off the changes into specific PRs
+	- [x] p6 - Improving and testing my changes
+	- [x] p7 - Section off the changes into specific PRs
 - Running Task: https://github.com/rust-bitcoin/corepc/issues/552#issuecomment-4256454586
 	- [x] p4 - Fix CI with acceptance criteria
 	- [x] p5 - Polishing and cutting LoC from PR, Slicing off the formatting changes, 
@@ -306,6 +309,17 @@
 	- [x] p4 - Work on solving each of the 62 prerelease problems
 	- [ ] p5 - Organized the changes into PRs
 - Prepare for maintainer meeting:
-	- [ ] p1 - Write talking points:
-	- [ ] p3 - Writing codegen proposal and present to maintainer in person.
+	- [x] p1 - Write talking points:
+	- [x] p3 - Writing codegen proposal and present to maintainer in person.
+	- We got approval for codegen task!
+- Codegen:
+	-  [x] p1 - Patch up codegen repo for https://github.com/satsfy/rust-btc-codegen 
 - [ ] Put production client considerations (like validations) in issue 
+
+
+22/4/26:
+- Use morning intelligence on learning PSBT
+	- [ ]
+- New Task: rust-bitcoin issue
+	-  [ ] Select a rust-bitcoin issue to solve
+
