@@ -313,10 +313,9 @@
 - Codegen:
 	-  [x] p1 - Patch up codegen repo for https://github.com/satsfy/rust-btc-codegen 
 
-
 22/4/26:
 - Running Task: https://github.com/rust-bitcoin/rust-bech32/pull/254#issuecomment-4289786340
-	- [ ] p1 - Migrate nightly update to rbmt 
+	- [x] p1 - Migrate nightly update to rbmt 
 	- [x] p2 - Unify embedded nightly version
 	- [x] p3 - Test the solution
 	- Open PR: https://github.com/rust-bitcoin/rust-bech32
