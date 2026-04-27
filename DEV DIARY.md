@@ -345,11 +345,23 @@
 	- [x] p23 - Iterating
 	- [x] p24 - Iterating
 	- [x] p25 - Iterating
+	- [x] p26 - Iterating
 	- Opened PR: https://github.com/rust-bitcoin/corepc/pull/570
 - [x] Bitdevs
 
 24/4/26:
-
+- Running Task: https://github.com/rust-bitcoin/corepc/issues/58
+	- [x] p27 - Redoing the PR based on feedack
+	- [x] p28 - Redoing the PR based on feedack
+	- [x] p29 - Redoing the PR based on feedack
+	- [x] p30 - Redoing the PR based on feedack
+	- [x] p31 - Redoing the PR based on feedack
+	- [x] p32 - Redoing the PR based on feedack
+	- [x] p33 - Redoing the PR based on feedack
+	- [x] p34 - Redoing the PR based on feedack
+	- [x] p35 - Redoing the PR based on feedack
+	- [x] p36 - Redoing the PR based on feedack
+	- [x] p37 - Redoing the PR based on feedack
 25/4/26:
 - New task: Read up issues in rust-bitcoin
 	- [x] p1 - Read context for N issues...
@@ -362,17 +374,27 @@
 - Offline: domingo
 
 27/4/26:
-- New task: do a rust-bitcoin PR:
-	- [ ] p1 - Select the best PR among my selection
+- Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
+	- [x] p5 - learning PSBT repo
+	- [x] p6 - Fixating knowledge about PSBTs
+	- [x] p7 - Fixating knowledge about PSBTs
+	- [x] p8 - Fixating knowledge about PSBTs
+	- [x] p9- Fixating knowledge about PSBTs
+	- [x] p10 - Reading PSBT repo
+	- [ ] p11 - Reading PSBT repo
+	- [ ] p12 - Reading PSBT repo
+	- [ ] p - organized the changes into PRs
 - Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
 	- I'm supposed to be the client guy now
-	- [ ] p1 - 
+	- [x] p1 - Research design ideas and solution developed by rust-bitcoin
+	- [x] p2 - Collecting ideas for a production client
 	- [ ] Put production client considerations (like validations) in issue 
 	- Codegen: https://github.com/satsfy/rust-btc-codegen
-		- [ ] p1 - Integrate in corepc by renaming corepc client types
-- Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
-	- [ ] p5 - Organized the changes into PRs
-	- [ ] Learning PSBT repo
-	- [ ] p1 - Execute and start writing a report of all the software 
 - Running Task: https://github.com/rust-bitcoin/corepc/issues/58
 	- [ ] p3 - Mapping out the included test
+- New task: do a rust-bitcoin PR:
+	- [ ] p1 - Select the best PR among my selection
+
+28/7/26:
+- Write report about this month's work:
+	- [ ] p1 - copy template and fill up history
