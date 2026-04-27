@@ -319,18 +319,60 @@
 	- [x] p2 - Unify embedded nightly version
 	- [x] p3 - Test the solution
 	- Open PR: https://github.com/rust-bitcoin/rust-bech32
-- Running Task: https://github.com/rust-bitcoin/corepc/issues/58
-	- [ ] p8 - Verify solution carefully
 - Running Task: https://github.com/rust-bitcoin/corepc/issues/552#issuecomment-4256454586
-	- [ ] p6 - Final review of PR
-- New Task: rust-bitcoin issue
-	- [ ] Select a rust-bitcoin issue to solve
-- [ ] Put production client considerations (like validations) in issue 
+	- [x] p8 - Verify solution carefully
+	- [x] p9 - Read about electrsd more carefully
+	- [x] p10 - test electrsd
+	- [x] p11 - test electrsd
+	- [x] p12 - Review tobins work to ensure final shape
+	- this is not being so easy
+	- [x] p12 - Verify solution carefully
+	- [x] p13- Cut down dramatically
+	- [x] p14- Make CI pass
+	- [x] p15 - Verify solution carefully
 
 23/4/26:
-- Use morning on learning PSBT repo:
-	- [ ] p1 - Execute and start writing a report of all the software 
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6052
+- Merged PR: https://github.com/rust-bitcoin/rust-bech32/pull/259
+- Running Task: https://github.com/rust-bitcoin/corepc/issues/58
+	- [x] p16 - Polishing final version
+	- [x] p17 - Working on test feature flags
+	- [x] p18 - Addressing testing errors
+	- [x] p19 - Inspecting each version of electrsd 
+	- [x] p20 - Inspecting each version of electrsd 
+	- [x] p21 - Working on test feature flags
+	- [x] p22- Iterating
+	- [x] p23 - Iterating
+	- [x] p24 - Iterating
+	- [x] p25 - Iterating
+	- Opened PR: https://github.com/rust-bitcoin/corepc/pull/570
+- [x] Bitdevs
+
+24/4/26:
+
+25/4/26:
+- New task: Read up issues in rust-bitcoin
+	- [x] p1 - Read context for N issues...
+	- [x] p2 - Read context for N issues...
+	- [x] p3 - Read context for N issues...
+	- [x] p4 - Read context for N issues...
+	- So I have selected about 11 valuable issues to tackle for version 1.0 of rust-bitcoin
+
+26/4/26:
+- Offline: domingo
+
+27/4/26:
+- New task: do a rust-bitcoin PR:
+	- [ ] p1 - Select the best PR among my selection
+- Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
+	- I'm supposed to be the client guy now
+	- [ ] p1 - 
+	- [ ] Put production client considerations (like validations) in issue 
+	- Codegen: https://github.com/satsfy/rust-btc-codegen
+		- [ ] p1 - Integrate in corepc by renaming corepc client types
 - Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
 	- [ ] p5 - Organized the changes into PRs
-- Codegen: https://github.com/satsfy/rust-btc-codegen
-	- [ ] p1 - Integrate in corepc by renaming corepc client types
+	- [ ] Learning PSBT repo
+	- [ ] p1 - Execute and start writing a report of all the software 
+- Running Task: https://github.com/rust-bitcoin/corepc/issues/58
+	- [ ] p3 - Mapping out the included test
