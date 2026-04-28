@@ -381,20 +381,39 @@
 	- [x] p8 - Fixating knowledge about PSBTs
 	- [x] p9- Fixating knowledge about PSBTs
 	- [x] p10 - Reading PSBT repo
-	- [ ] p11 - Reading PSBT repo
-	- [ ] p12 - Reading PSBT repo
-	- [ ] p - organized the changes into PRs
+	- [x] p11 - Reading PSBT repo
+	- [x] p12 - Find a task to do
+	- Found task: https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/issues/31 
+	- [x] p13 - Uncommenting related code and making test pass
+	- [x] p14 - Verifying the changes
 - Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
 	- I'm supposed to be the client guy now
 	- [x] p1 - Research design ideas and solution developed by rust-bitcoin
 	- [x] p2 - Collecting ideas for a production client
-	- [ ] Put production client considerations (like validations) in issue 
-	- Codegen: https://github.com/satsfy/rust-btc-codegen
 - Running Task: https://github.com/rust-bitcoin/corepc/issues/58
-	- [ ] p3 - Mapping out the included test
-- New task: do a rust-bitcoin PR:
-	- [ ] p1 - Select the best PR among my selection
+	- [x] p38 - Redoing the PR based on feedack
+- Write report about this month's work:
+	- [x] p1 - copy template and add general outline
 
 28/7/26:
+- Running Task: https://github.com/rust-bitcoin/corepc/issues/58
+	- [ ] p39 - Redoing the PR based on feedack
+- Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
+	- [ ] p14 - Verifying the changes
+	- [ ] p13 - organized the changes into PRs
 - Write report about this month's work:
-	- [ ] p1 - copy template and fill up history
+	- [ ] p2 - fill up history
+- Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
+	- [ ] p3 - Consider how codegen shape could be for into_model conversions
+	- [ ] p4 - Resarch and list all client tradeoffs
+	- [ ] p5 - Write a formal API design
+	- [ ] p6 - Write an issue Put production client considerations (like validations) in issue 
+	- Codegen: https://github.com/satsfy/rust-btc-codegen
+
+28/7/26:
+- Running Task: https://github.com/rust-bitcoin/corepc/issues/58
+	- [ ] p3 - Mapping out the included test
+	- [ ] p4 - Select the best PR among my selection
+- New task: do a rust-bitcoin PR:
+	- [ ] p1 - Read the codebase collecting some other bitcoin topics to research
+	- [ ] p2 - Research bitcoin topics selected to find surface to contribute
