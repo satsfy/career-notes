@@ -334,7 +334,7 @@
 23/4/26:
 - Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6052
 - Merged PR: https://github.com/rust-bitcoin/rust-bech32/pull/259
-- Running Task: https://github.com/rust-bitcoin/corepc/issues/58
+- Running Task: https://github.com/rust-bitcoin/corepc/pull/570
 	- [x] p16 - Polishing final version
 	- [x] p17 - Working on test feature flags
 	- [x] p18 - Addressing testing errors
@@ -350,7 +350,7 @@
 - [x] Bitdevs
 
 24/4/26:
-- Running Task: https://github.com/rust-bitcoin/corepc/issues/58
+- Running Task: https://github.com/rust-bitcoin/corepc/pull/570
 	- [x] p27 - Redoing the PR based on feedack
 	- [x] p28 - Redoing the PR based on feedack
 	- [x] p29 - Redoing the PR based on feedack
@@ -384,36 +384,64 @@
 	- [x] p11 - Reading PSBT repo
 	- [x] p12 - Find a task to do
 	- Found task: https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/issues/31 
-	- [x] p13 - Uncommenting related code and making test pass
-	- [x] p14 - Verifying the changes
+- New  task: https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/issues/31 
+	- [x] p1 - Uncommenting related code and making test pass
+	- [x] p2 - Verifying the changes
 - Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
 	- I'm supposed to be the client guy now
 	- [x] p1 - Research design ideas and solution developed by rust-bitcoin
 	- [x] p2 - Collecting ideas for a production client
-- Running Task: https://github.com/rust-bitcoin/corepc/issues/58
+- Running Task: https://github.com/rust-bitcoin/corepc/pull/570
 	- [x] p38 - Redoing the PR based on feedack
 - Write report about this month's work:
 	- [x] p1 - copy template and add general outline
 
 28/7/26:
-- Running Task: https://github.com/rust-bitcoin/corepc/issues/58
-	- [ ] p39 - Redoing the PR based on feedack
+- New task: do a rust-bitcoin PR:
+	- [x] p1 - Read the codebase systematically
+	- [x] p2 - Read the codebase systematically
+	- [x] p3 - Read the codebase systematically
+	- [x] p4 - Read the codebase systematically
+	- Read about 20% of rust-bitcoin
+- Running task: https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/issues/31
+	- [x] p3 - Verifying the changes
+	- [x] p4 - Verifying the changes
+	- [x] p5 - Testing the changes
+	- [x] p6 - Testing the changes
+	- [x] p7 - Testing the changes
+	- [x] p8 - Final polishing
+- Write report about this month's work:
+	- [x] p2 - fill up history
+- Prepare for mentorship
+	- [x] p1 - Read successful developer stories
+	- [x] p2 - Read successful developer stories
+	- [x] p3 - Write script
+	- [x] p4 - Mentorship
+	- [x] p5 - Mentorship
+
+29/7/26:
+- Running Task: https://github.com/rust-bitcoin/corepc/pull/570
+	- [x] p40 - Adapting the PR based on feedback
+- Running task: https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/issues/31
+	- [x] p7 - Final Polishing
+	- [x] p8 - Additional test
+	- [ ] p9 - Final Polishing
+	- [ ] p10 - Writeup
 - Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
 	- [ ] p14 - Verifying the changes
 	- [ ] p13 - organized the changes into PRs
 - Write report about this month's work:
-	- [ ] p2 - fill up history
+	- [ ] p3 - Final write up
 - Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
 	- [ ] p3 - Consider how codegen shape could be for into_model conversions
 	- [ ] p4 - Resarch and list all client tradeoffs
 	- [ ] p5 - Write a formal API design
 	- [ ] p6 - Write an issue Put production client considerations (like validations) in issue 
 	- Codegen: https://github.com/satsfy/rust-btc-codegen
-
-28/7/26:
 - Running Task: https://github.com/rust-bitcoin/corepc/issues/58
 	- [ ] p3 - Mapping out the included test
 	- [ ] p4 - Select the best PR among my selection
 - New task: do a rust-bitcoin PR:
-	- [ ] p1 - Read the codebase collecting some other bitcoin topics to research
-	- [ ] p2 - Research bitcoin topics selected to find surface to contribute
+	- Received to tip to do cargo rbmt ci tasks regarding specific versions of rust-bitcoin
+	- [ ] p4 - Read the docs collecting some other bitcoin topics to research
+	- [ ] p5 - Research bitcoin topics selected to find surface to contribute
