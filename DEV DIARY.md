@@ -422,16 +422,38 @@
 29/7/26:
 - Running Task: https://github.com/rust-bitcoin/corepc/pull/570
 	- [x] p40 - Adapting the PR based on feedback
+	- [x] p41 - Adapting the PR based on feedback
+	- [x] p42 - Adapting the PR based on feedback
+	- [x] p43 - Checking why ci is flaky
+	- New rebase in: https://github.com/rust-bitcoin/corepc/pull/570
 - Running task: https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/issues/31
 	- [x] p7 - Final Polishing
 	- [x] p8 - Additional test
-	- [ ] p9 - Final Polishing
-	- [ ] p10 - Writeup
+	- [x] p9 - Final Polishing
+	- [x] p10 - Final Polishing
+	- [x] p11 - Writeup, notify on issue
+	- [x] p12 - Fix CI
+	- [x] p13 - Fix CI
+	- Open PR: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/pulls/116
+- Running Task: https://github.com/bitcoin/bitcoin/pull/34764#pullrequestreview-4196244137
+	- Got a review on bitcoin core PR review
+	- [x] p1 - Address changes 
+- Write report about this month's work:
+	- [x] p3 - Final write up
+	- [x] p4 - Final write up
+
+30/04/26:
+- Running Task: https://github.com/rust-bitcoin/corepc/pull/570
+	- [x] p44 - Answer concern
+- Write report about this month's work:
+	- [x] p5 - Final write up
+	- [x] p6 - Final write up
+	- [x] p7 - Submit
+- Running Task: https://github.com/bitcoin/bitcoin/pull/34764#pullrequestreview-4196244137
+	- [ ] p2 - Building, testing and checking how we could make it better
 - Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
 	- [ ] p14 - Verifying the changes
 	- [ ] p13 - organized the changes into PRs
-- Write report about this month's work:
-	- [ ] p3 - Final write up
 - Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
 	- [ ] p3 - Consider how codegen shape could be for into_model conversions
 	- [ ] p4 - Resarch and list all client tradeoffs
