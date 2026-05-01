@@ -449,11 +449,20 @@
 	- [x] p5 - Final write up
 	- [x] p6 - Final write up
 	- [x] p7 - Submit
+- Opened this quick fix PR: https://github.com/rust-bitcoin/corepc/pull/573/changes
 - Running Task: https://github.com/bitcoin/bitcoin/pull/34764#pullrequestreview-4196244137
-	- [ ] p2 - Building, testing and checking how we could make it better
+	- [x] p2 - Building, testing and checking how we could make it better
+	- [x] p2 - Building, testing and checking how we could make it better
+	- [x] p3 - Extensive checks, bitcoin core level quality
+	- Changeset pushed https://github.com/bitcoin/bitcoin/pull/34764
 - Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
-	- [ ] p14 - Verifying the changes
-	- [ ] p13 - organized the changes into PRs
+	- [x] p14 - Verifying the changes
+	- [x] p15 - organized the changes into PRs
+	- [x] p16 - organized the changes into PRs
+	- [ ] p16 - organized the changes into PRs
+- Opened a documentation fix PR: https://github.com/rust-bitcoin/corepc/pull/574/changes
+
+01/05/2026:
 - Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
 	- [ ] p3 - Consider how codegen shape could be for into_model conversions
 	- [ ] p4 - Resarch and list all client tradeoffs
