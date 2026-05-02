@@ -465,19 +465,31 @@
 - Opened a documentation fix PR: https://github.com/rust-bitcoin/corepc/pull/574/changes
 
 01/05/2026:
+ - rust-bitcoin:
+	 - [x] p1 - Close reading
+	 - [x] p2 - Close reading
+	 - [x] p3 - Close reading
+	 - [x] p4 - Close reading
+	 - [x] p5 - Reading many rust concepts
+- Running task: https://github.com/rust-bitcoin/corepc/pull/574#issuecomment-4357337761
+	- [x] p2 - Reviewer suggestions
+	- [x] p3 - Triple checking
+	- Opened new PR: https://github.com/rust-bitcoin/corepc/pull/575
 - Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
 	- [ ] p16 - zeroing in bug fixes for first PR
-- review changes:
-	- https://github.com/rust-bitcoin/corepc/pull/570
-	- https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/116
-	- https://github.com/rust-bitcoin/corepc/pull/574#issuecomment-4357337761
-- create tracking release? https://github.com/rust-bitcoin/corepc/pull/571#issuecomment-4357346005
+- Running task: https://github.com/rust-bitcoin/corepc/pull/570
+	- [x] p45 - Address reviews
+- Running task: https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/116
+	- [x] p14 - Address reviews
+	- [x] p15 - Address reviews
 - Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
-	- [ ] p3 - Consider how codegen shape could be for into_model conversions
-	- [ ] p4 - Resarch and list all client tradeoffs
-	- [ ] p5 - Write a formal API design
-	- [ ] p6 - Write an issue Put production client considerations (like validations) in issue 
+	- [x] p3 - Design and create v1 of client
+	- [x] p4 - Turn all requirements into a concrete plan
+	- [x] p5 - Generate implementation plan and codegen plan
+	- [ ] p6 - Reserch codegen tools, from rust into rust.
 	- Codegen: https://github.com/satsfy/rust-btc-codegen
+
+02/05/2026:
 - Running Task: https://github.com/rust-bitcoin/corepc/issues/58
 	- [ ] p3 - Mapping out the included test
 	- [ ] p4 - Select the best PR among my selection
@@ -485,3 +497,10 @@
 	- Received to tip to do cargo rbmt ci tasks regarding specific versions of rust-bitcoin
 	- [ ] p4 - Read the docs collecting some other bitcoin topics to research
 	- [ ] p5 - Research bitcoin topics selected to find surface to contribute
+- Running task: https://github.com/rust-bitcoin/corepc/pull/571#issuecomment-4357346005
+	- No-op until electrsd pr merged
+- Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
+	- [ ] p5 - Resarch and list all client tradeoffs
+	- [ ] p4 - Consider how codegen shape could be for into_model conversions, 
+	- [ ] p6 - Write a formal API design
+	- [ ] p7 - Write an issue Put production client considerations (like validations) in issue 
