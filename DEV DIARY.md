@@ -486,7 +486,6 @@
 	- [x] p3 - Design and create v1 of client
 	- [x] p4 - Turn all requirements into a concrete plan
 	- [x] p5 - Generate implementation plan and codegen plan
-	- [ ] p6 - Reserch codegen tools, from rust into rust.
 	- Codegen: https://github.com/satsfy/rust-btc-codegen
 
 02/05/2026:
@@ -500,6 +499,7 @@
 - Running task: https://github.com/rust-bitcoin/corepc/pull/571#issuecomment-4357346005
 	- No-op until electrsd pr merged
 - Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
+	- [ ] p6 - Reserch codegen tools, from rust into rust.
 	- [ ] p5 - Resarch and list all client tradeoffs
 	- [ ] p4 - Consider how codegen shape could be for into_model conversions, 
 	- [ ] p6 - Write a formal API design
