@@ -475,8 +475,6 @@
 	- [x] p2 - Reviewer suggestions
 	- [x] p3 - Triple checking
 	- Opened new PR: https://github.com/rust-bitcoin/corepc/pull/575
-- Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
-	- [ ] p16 - zeroing in bug fixes for first PR
 - Running task: https://github.com/rust-bitcoin/corepc/pull/570
 	- [x] p45 - Address reviews
 - Running task: https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/116
@@ -488,7 +486,40 @@
 	- [x] p5 - Generate implementation plan and codegen plan
 	- Codegen: https://github.com/satsfy/rust-btc-codegen
 
-02/05/2026:
+02/05/26:
+- Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
+	- [x] p6 - Structure and plan the codegen repo
+
+04/05/2026:
+- Corepc: 
+	- [x] p1 - Addressing reviews
+	- [x] p2 - Addressing reviews
+	- Opened PR: https://github.com/rust-bitcoin/corepc/pull/582
+- Learning:
+	- [x] p6 - Read Rust API Guidelines
+	- [x] p7 - Read Rust API Guidelines
+	- [x] p8 - Read Rust API Guidelines
+	- [x] p9 - Systematic reading of rust-bitcoin 
+- Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
+	- [x] p16 - zeroing in bug fixes for first PR
+	- [x] p17 - zeroing in a specific bug no related to prerelease
+	- [x] p18 - PR write up
+	- PR open: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/pulls/123
+
+05/05/26:
+- Merged PR: https://github.com/rust-bitcoin/corepc/pull/582
+- Merged PR: https://github.com/rust-bitcoin/corepc/pull/573
+- Merged PR: https://github.com/rust-bitcoin/corepc/pull/574
+- Running task: https://github.com/rust-bitcoin/corepc/pull/570
+	- [x] p45 - Address reviews
+- Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
+	- [x] p20 - Selecting and verifying all first PR version commits
+	- [x] p21 - Selecting and verifying all first PR version commits
+	- [x] p22 - Selecting and verifying all first PR version commits
+	- Open PR https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/124
+- Mentorship:
+	- [ ] p1 - Preparing some points to discusss
+	- [ ] p2 - 
 - Running Task: https://github.com/rust-bitcoin/corepc/issues/58
 	- [ ] p3 - Mapping out the included test
 	- [ ] p4 - Select the best PR among my selection
