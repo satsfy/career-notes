@@ -555,6 +555,8 @@
 	- [ ] p4 - Select the best PR among my selection
 - Running task (elecstrsd): https://github.com/rust-bitcoin/corepc/pull/570
 	- [ ] p1 - Address reviewer concerns
+- Running task: https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/124
+	- [ ] p23 - Continue fixing TODOs
 
 07/05/26:
 - New task: review v0 psbt from rust-bitcoin and current solution to detect mismatches. 
