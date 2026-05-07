@@ -1,0 +1,31 @@
+The client will be divided in 3 steps: pre-codegen and post-codegen
+
+- `bitreq/async` as default transport behind feature gate
+	- If the user sets bitreq that clinet gets used
+	- otherwise an error for missing transport gets thrown
+- Transport must be swappable via -`jsonrpc::client_async::Transport`; `bitreq` ships as optional default, not hardcoded
+- Runtime-agnostic core preferred; `tokio` coupling lives only in `bitreq/async`, issue #520 tracks making `bitreq` executor-agnostic (not blocking v0.1)
+- Sans-IO rejected for now (no real use case proven); downstream can swap transport if needed
+- Role-based trait split (`Reader`/`Broadcaster`/`Wallet`/`Signer`) vs namespace split (`blockchain`/`network`/`mining`) still open; Alpen's role split preferred by satsfy
+- v0.1 method scope: ~30 methods matching the union of BDK + LDK + Alpen + peer-observer needs; core read path (8-10) is baseline
+- `into_model()` two-layer pattern (version-specific raw types -> model types) is universal and non-negotiable; error types from conversion must be part of public API
+- Structured errors required: distinguish transport / auth / HTTP status / JSON-RPC / Core RPC / version mismatch / decode / model conversion; each must signal retryable vs non-retryable
+- Production resilience: retries with error classification, connection pooling, configurable timeouts (Alpen-style)
+- Raw JSON-RPC escape hatch for unsupported/new methods
+- Explicit version support: v28+ full, best-effort down to v17; version detection at connect time
+- URL/input validation in the client (raised in #558 review; no sync client precedent)
+- Return inner types (e.g. `Block`, `u32`) not wrapper structs like `GetBlockCount`; `opts` structs for optional params
+- Different method variants for different verbosity/shape (e.g. `get_block` vs `get_block_with_txs`)
+- Error types are public API; import paths must be stable and not leak internal architecture
+- Re-exports need explicit policy: what lives at crate root vs module level
+- Feature gates required for `tokio`, `serde`, `alloc`/`std`, transport, version targets
+- Codegen for `corepc-types` (not client logic): generate version-specific structs from Bitcoin Core OpenRPC spec (BC PR #34683, not yet merged); keep client handwritten
+- Generated code must stay generated; fixes go in the generator, no hand-editing generated output
+- `into_model()` boundary between generated raw types and handwritten model layer is the key unresolved design question
+- Codegen scope: only version-specific request/response structs; `model` layer stays manual
+- peer-observer needs `master`/RC support; codegen enables this but committing to it as explicit goal risks maintenance expectations
+- Existing sync testing client is untouched; production client is additive
+- Scope must stay minimal to avoid "5 projects patching one client into junk"; project-specific policy must not migrate upstream
+- Monolithic trait architecture (rust-bitcoincore-rpc style) explicitly rejected
+- Per-project submodules (e.g. `bdk_client`) rejected; conflicting modules are not additive across feature flags
+- Proposal must prove reduced maintenance, not just theoretical benefit; every addition is a liability

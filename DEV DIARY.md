@@ -518,20 +518,58 @@
 	- [x] p22 - Selecting and verifying all first PR version commits
 	- Open PR https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/124
 - Mentorship:
-	- [ ] p1 - Preparing some points to discusss
-	- [ ] p2 - 
-- Running Task: https://github.com/rust-bitcoin/corepc/issues/58
-	- [ ] p3 - Mapping out the included test
-	- [ ] p4 - Select the best PR among my selection
+	- [x] p1 - Preparing some points to discusss
+	- [x] p2 - PSBT meet
+	- [x] p3 - PSBT meet
+	- [x] p4 - Conversation
+- Merged PR: https://github.com/rust-bitcoin/corepc/pull/575
+- Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
+	- [x] p5 - Resarch and list all client tradeoffs
+
+06/05/26:
+- Study rust bitcoin:
+	- [x] p1 - Read Rust API Guidelines + stdlib
+	- [x] p2 - Read Rust API Guidelines + stdlib
+	- [x] p3 - Read rust-bitcoin
+	- [ ] p4 - Read recent rust-bitcoin PRs and issues
+- New task: review 3 PRs in psbt:
+	- directive: find defects
+	- [x] p1 - Review fuzzing carefully
+	- [x] p2 - Developing reviewer dev tools
+	- Raised a concern with the PR: https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/120#issuecomment-10612
+	- Found an defect in psbt.
+	- [ ] p3 - Review next PR
+- New task: fix panic underflow in PSBT
+	- [x] p1 - Confirm the error
+	- [x] p2 - Create a test for it and fix
+	- [x] p3 - Check it again
+	- [x] p4 - Check it again
+	- [x] p5 - Explore error in rust-bitcoin to see if it is a regression in crate move
+	- Open PR: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/pulls/128/files
+- New task: review v0 psbt from rust-bitcoin and current solution to detect mismatches. 
 - New task: do a rust-bitcoin PR:
 	- Received to tip to do cargo rbmt ci tasks regarding specific versions of rust-bitcoin
 	- [ ] p4 - Read the docs collecting some other bitcoin topics to research
 	- [ ] p5 - Research bitcoin topics selected to find surface to contribute
-- Running task: https://github.com/rust-bitcoin/corepc/pull/571#issuecomment-4357346005
-	- No-op until electrsd pr merged
+- Running Task: https://github.com/rust-bitcoin/corepc/issues/58
+	- [ ] p3 - Mapping out the included test
+	- [ ] p4 - Select the best PR among my selection
+- Running task (elecstrsd): https://github.com/rust-bitcoin/corepc/pull/570
+	- [ ] p1 - Address reviewer concerns
+
+07/05/26:
 - Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
+	- [ ] p6 - Review every design decision and implementation
 	- [ ] p6 - Reserch codegen tools, from rust into rust.
-	- [ ] p5 - Resarch and list all client tradeoffs
 	- [ ] p4 - Consider how codegen shape could be for into_model conversions, 
 	- [ ] p6 - Write a formal API design
 	- [ ] p7 - Write an issue Put production client considerations (like validations) in issue 
+- Running task: https://github.com/rust-bitcoin/corepc/pull/571#issuecomment-4357346005
+	- No-op until electrsd pr merged
+
+
+
+
+
+
+
