@@ -546,7 +546,6 @@
 	- [x] p4 - Check it again
 	- [x] p5 - Explore error in rust-bitcoin to see if it is a regression in crate move
 	- Open PR: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/pulls/128/files
-- New task: review v0 psbt from rust-bitcoin and current solution to detect mismatches. 
 - New task: do a rust-bitcoin PR:
 	- Received to tip to do cargo rbmt ci tasks regarding specific versions of rust-bitcoin
 	- [ ] p4 - Read the docs collecting some other bitcoin topics to research
@@ -558,6 +557,8 @@
 	- [ ] p1 - Address reviewer concerns
 
 07/05/26:
+- New task: review v0 psbt from rust-bitcoin and current solution to detect mismatches. 
+	- [ ] p1 - Order correctly the task for careful systematic and efficient reading
 - Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
 	- [ ] p6 - Review every design decision and implementation
 	- [ ] p6 - Reserch codegen tools, from rust into rust.
