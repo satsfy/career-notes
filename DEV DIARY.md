@@ -531,7 +531,6 @@
 	- [x] p1 - Read Rust API Guidelines + stdlib
 	- [x] p2 - Read Rust API Guidelines + stdlib
 	- [x] p3 - Read rust-bitcoin
-	- [ ] p4 - Read recent rust-bitcoin PRs and issues
 - New task: review 3 PRs in psbt:
 	- directive: find defects
 	- [x] p1 - Review fuzzing carefully
@@ -549,10 +548,9 @@
 - Contribute to issue discussion https://github.com/bitcoin/bips/pull/2075#issuecomment-4394045275
 
 07/05/26:
-- New task: do a rust-bitcoin PR:
-	- Received to tip to do cargo rbmt ci tasks regarding specific versions of rust-bitcoin
-	- [ ] p4 - Read the docs collecting some other bitcoin topics to research
-	- [ ] p5 - Research bitcoin topics selected to find surface to contribute
+- Study rust bitcoin:
+	- [x] p1 - Read Rust API Guidelines + stdlib
+	- [x] p2 - Read Rust API Guidelines + stdlib
 - Running Task: https://github.com/rust-bitcoin/corepc/issues/58
 	- [ ] p3 - Mapping out the included test
 	- [ ] p4 - Select the best PR among my selection
@@ -560,7 +558,6 @@
 	- [ ] p1 - Address reviewer concerns
 - Running task: https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/124
 	- [ ] p23 - Continue fixing TODOs
-
 - New task: review v0 psbt from rust-bitcoin and current solution to detect mismatches. 
 	- [ ] p1 - Order correctly the task for careful systematic and efficient reading
 - Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
@@ -572,9 +569,15 @@
 - Running task: https://github.com/rust-bitcoin/corepc/pull/571#issuecomment-4357346005
 	- No-op until electrsd pr merged
 
-
-
-
-
+08/05/26:
+- Study rust bitcoin:
+	- [x] p1 - Read Rust API Guidelines + stdlib
+	- [x] p2 - Read Rust API Guidelines + stdlib
+	- [ ] p1 - Read Rust API Guidelines + stdlib
+	- [ ] p4 - Read recent rust-bitcoin PRs and issues
+- New task: do a rust-bitcoin PR:
+	- Received to tip to do cargo rbmt ci tasks regarding specific versions of rust-bitcoin
+	- [ ] p4 - Read the docs collecting some other bitcoin topics to research
+	- [ ] p5 - Research bitcoin topics selected to find surface to contribute
 
 
