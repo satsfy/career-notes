@@ -551,6 +551,26 @@
 - Study rust bitcoin:
 	- [x] p1 - Read Rust API Guidelines + stdlib
 	- [x] p2 - Read Rust API Guidelines + stdlib
+- Research and improve my dev tooling for increased productivity:
+	- [ ] p1 - Getting organized
+	- [ ] p2 - How to best use LLM (skills..)
+	- [ ] p3 - How to best use LLM (sample projects)
+	- [ ] p4 - How to best use LLM (sample project)
+- 
+- Running task (elecstrsd): https://github.com/rust-bitcoin/corepc/pull/570
+	- [x] p1 - Address reviewer concerns ✅ 2026-05-08
+	- [x] p2 - Address reviewer concerns ✅ 2026-05-08
+
+08/05/26:
+- Study rust bitcoin:
+	- [x] p1 - Read Rust API Guidelines + stdlib
+	- [x] p2 - Read Rust API Guidelines + stdlib
+	- [ ] p1 - Read Rust API Guidelines + stdlib
+	- [ ] p4 - Read recent rust-bitcoin PRs and issues
+- New task: do a rust-bitcoin PR:
+	- Received to tip to do cargo rbmt ci tasks regarding specific versions of rust-bitcoin
+	- [ ] p4 - Read the docs collecting some other bitcoin topics to research
+	- [ ] p5 - Research bitcoin topics selected to find surface to contribute
 - Running Task: https://github.com/rust-bitcoin/corepc/issues/58
 	- [ ] p3 - Mapping out the included test
 	- [ ] p4 - Select the best PR among my selection
@@ -568,16 +588,3 @@
 	- [ ] p7 - Write an issue Put production client considerations (like validations) in issue 
 - Running task: https://github.com/rust-bitcoin/corepc/pull/571#issuecomment-4357346005
 	- No-op until electrsd pr merged
-
-08/05/26:
-- Study rust bitcoin:
-	- [x] p1 - Read Rust API Guidelines + stdlib
-	- [x] p2 - Read Rust API Guidelines + stdlib
-	- [ ] p1 - Read Rust API Guidelines + stdlib
-	- [ ] p4 - Read recent rust-bitcoin PRs and issues
-- New task: do a rust-bitcoin PR:
-	- Received to tip to do cargo rbmt ci tasks regarding specific versions of rust-bitcoin
-	- [ ] p4 - Read the docs collecting some other bitcoin topics to research
-	- [ ] p5 - Research bitcoin topics selected to find surface to contribute
-
-
