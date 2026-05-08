@@ -552,11 +552,11 @@
 	- [x] p1 - Read Rust API Guidelines + stdlib
 	- [x] p2 - Read Rust API Guidelines + stdlib
 - Research and improve my dev tooling for increased productivity:
-	- [ ] p1 - Getting organized
-	- [ ] p2 - How to best use LLM (skills..)
-	- [ ] p3 - How to best use LLM (sample projects)
-	- [ ] p4 - How to best use LLM (sample project)
-- 
+	- [x] p1 - Getting organized ✅ 2026-05-08
+	- [x] p1 - Setting up a kanban and finding all the tasks I need done ✅ 2026-05-08
+	- [x] p2 - How to best use LLM (skills..) ✅ 2026-05-08
+	- [x] p3 - How to best use LLM (sample projects) ✅ 2026-05-08
+	- [x] p4 - How to best use LLM (sample projects) ✅ 2026-05-08
 - Running task (elecstrsd): https://github.com/rust-bitcoin/corepc/pull/570
 	- [x] p1 - Address reviewer concerns ✅ 2026-05-08
 	- [x] p2 - Address reviewer concerns ✅ 2026-05-08
