@@ -599,11 +599,17 @@
 	- [x] p3 - Read recent rust-bitcoin PRs and issues ✅ 2026-05-11
 	- [x] p4 - Read recent rust-bitcoin PRs and issues ✅ 2026-05-11
 - Running Task: Import Bitcoin Core tests to Corepc
-	- [ ] p1  - 
+	- [x] Use Claude to convert all tests it find applicable from bitcoin core to corepc ✅ 2026-05-11
+		- Out of 268 tests in bitcoin core functional tests, a total of 126 could be brought as tests to corepc
+	- [ ] Design what a solution could look like for integrating them into corepc for maximum constriction and correctness of corepc
+	- [ ] Write an explicit review criteria for tests
+	- [ ] Review each test carefully given criteria
+	- [ ] Review now every test on bitcoin core that was not brought over, given the needs and finding from previous check
+
 
 12/05/26:
 - Study rust bitcoin:
 	- [ ] p1 - Read recent rust-bitcoin PRs and issues
 	- [ ] p2 - Review something
 - Running task: Corepc Production Client
-	- [ ] p1 - 
+	- To feel confident in the design of this production client, a good exercise transporting core tests to corepc. Therefore, this task will depend on that task. 
