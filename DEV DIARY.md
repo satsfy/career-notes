@@ -562,11 +562,6 @@
 	- [x] p2 - Address reviewer concerns ✅ 2026-05-08
 
 08/05/26:
-- Study rust bitcoin:
-	- [x] p1 - Read Rust API Guidelines + stdlib
-	- [x] p2 - Read Rust API Guidelines + stdlib
-	- [ ] p1 - Read Rust API Guidelines + stdlib
-	- [ ] p4 - Read recent rust-bitcoin PRs and issues
 - New task: do a rust-bitcoin PR:
 	- Received to tip to do cargo rbmt ci tasks regarding specific versions of rust-bitcoin
 	- [ ] p4 - Read the docs collecting some other bitcoin topics to research
@@ -575,7 +570,7 @@
 	- [ ] p3 - Mapping out the included test
 	- [ ] p4 - Select the best PR among my selection
 - Running task (elecstrsd): https://github.com/rust-bitcoin/corepc/pull/570
-	- [ ] p1 - Address reviewer concerns
+	- [x] p1 - Address reviewer concerns ✅ 2026-05-08
 - Running task: https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/124
 	- [ ] p23 - Continue fixing TODOs
 - New task: review v0 psbt from rust-bitcoin and current solution to detect mismatches. 
@@ -588,3 +583,27 @@
 	- [ ] p7 - Write an issue Put production client considerations (like validations) in issue 
 - Running task: https://github.com/rust-bitcoin/corepc/pull/571#issuecomment-4357346005
 	- No-op until electrsd pr merged
+
+09/05/26:
+- Study rust bitcoin:
+	- [x] p1 - Read Rust API Guidelines + stdlib
+	- [ ] p4 - Read recent rust-bitcoin PRs and issues
+- Running task: Corepc Production Client
+- Running Task: Import Bitcoin Core tests to Corepc
+
+
+11/05/26:
+- Study rust bitcoin:
+	- [x] p1 - Read Rust rust-bitcoin primitives
+	- [x] p2 - Read Rust rust-bitcoin primitives
+	- [x] p3 - Read recent rust-bitcoin PRs and issues ✅ 2026-05-11
+	- [x] p4 - Read recent rust-bitcoin PRs and issues ✅ 2026-05-11
+- Running Task: Import Bitcoin Core tests to Corepc
+	- [ ] p1  - 
+
+12/05/26:
+- Study rust bitcoin:
+	- [ ] p1 - Read recent rust-bitcoin PRs and issues
+	- [ ] p2 - Review something
+- Running task: Corepc Production Client
+	- [ ] p1 - 
