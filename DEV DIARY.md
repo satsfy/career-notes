@@ -585,6 +585,8 @@
 	- No-op until electrsd pr merged
 
 09/05/26:
+- Write my first technical blog post: https://satsfy.xyz/technical/setting_up_irc_server
+	- (well its not bitcoin, but it serves to prepare me for upcoming harder posts)
 - Study rust bitcoin:
 	- [x] p1 - Read Rust API Guidelines + stdlib
 	- [ ] p4 - Read recent rust-bitcoin PRs and issues
@@ -607,7 +609,6 @@
 	- [ ] p4 - Review and compare to core, fixing each test carefully.
 	- [ ] p5 - Review every test on bitcoin core that was not brought over for more invariants.
 	- Issue comment about some clarifications: https://github.com/rust-bitcoin/corepc/issues/58#issuecomment-4426287316
-
 
 12/05/26:
 - Study rust bitcoin:
