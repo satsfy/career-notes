@@ -591,7 +591,6 @@
 - Running task: Corepc Production Client
 - Running Task: Import Bitcoin Core tests to Corepc
 
-
 11/05/26:
 - Study rust bitcoin:
 	- [x] p1 - Read Rust rust-bitcoin primitives
@@ -599,17 +598,24 @@
 	- [x] p3 - Read recent rust-bitcoin PRs and issues ✅ 2026-05-11
 	- [x] p4 - Read recent rust-bitcoin PRs and issues ✅ 2026-05-11
 - Running Task: Import Bitcoin Core tests to Corepc
-	- [x] Use Claude to convert all tests it find applicable from bitcoin core to corepc ✅ 2026-05-11
+	- [x] p1 - Use Claude to convert all tests it find applicable from bitcoin core to corepc ✅ 2026-05-11
 		- Out of 268 tests in bitcoin core functional tests, a total of 126 could be brought as tests to corepc
-	- [ ] Design what a solution could look like for integrating them into corepc for maximum constriction and correctness of corepc
-	- [ ] Write an explicit review criteria for tests
-	- [ ] Review each test carefully given criteria
-	- [ ] Review now every test on bitcoin core that was not brought over, given the needs and finding from previous check
+	- [x] p2 - Design what a solution could look like for integrating them into corepc for maximum constriction and correctness of corepc ✅ 2026-05-11
+		- It will need careful human review all the way through
+	- [ ] p3 - Review and compare to core, fixing each test carefully.
+		- Goal: get as many invariants as possible checked
+	- [ ] p4 - Review and compare to core, fixing each test carefully.
+	- [ ] p5 - Review every test on bitcoin core that was not brought over for more invariants.
+	- Issue comment about some clarifications: https://github.com/rust-bitcoin/corepc/issues/58#issuecomment-4426287316
 
 
 12/05/26:
 - Study rust bitcoin:
 	- [ ] p1 - Read recent rust-bitcoin PRs and issues
 	- [ ] p2 - Review something
+- Spent some time going to a bitcoin related event
+- Reviewed PR: https://github.com/rust-bitcoin/rust-bech32/pull/264
+
+13/05/26:
 - Running task: Corepc Production Client
 	- To feel confident in the design of this production client, a good exercise transporting core tests to corepc. Therefore, this task will depend on that task. 
