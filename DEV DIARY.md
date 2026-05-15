@@ -629,9 +629,9 @@
 
 14/05/26:
 - Studying:
-	- [ ] p1 - Read Software Testing book 'Unit Testing Principles, Practices, and Patterns' - Vladimir Khorikov
-	- [ ] p2 - Software Testing  book 'Unit Testing Principles, Practices, and Patterns' - Vladimir Khorikov
-	- [ ] p3 - Software Testing  book 'Unit Testing Principles, Practices, and Patterns' - Vladimir Khorikov
+	- [x] p1 - Read Software Testing book 'Unit Testing Principles, Practices, and Patterns' - Vladimir Khorikov ✅ 2026-05-15
+	- [x] p2 - Software Testing  book 'Unit Testing Principles, Practices, and Patterns' - Vladimir Khorikov ✅ 2026-05-15
+	- [x] p3 - Software Testing  book 'Unit Testing Principles, Practices, and Patterns' - Vladimir Khorikov ✅ 2026-05-15
 - Converting bitcoin core tests in corepc tests:
 	- [x] p1 - Deciding exactly what should corepc test have ✅ 2026-05-15
 	- [x] p2 - Refining doctrine ✅ 2026-05-15
