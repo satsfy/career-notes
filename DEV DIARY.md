@@ -620,3 +620,41 @@
 13/05/26:
 - Running task: Corepc Production Client
 	- To feel confident in the design of this production client, a good exercise transporting core tests to corepc. Therefore, this task will depend on that task. 
+- New PR: https://github.com/rust-bitcoin/corepc/pull/589
+- Meeting mentor
+	- [x] p1 - Meet preparation (questions) ✅ 2026-05-15
+	- [x] p2 - Meet preparation (questions) ✅ 2026-05-15
+	- [x] p3 - Meet ✅ 2026-05-15
+	- [x] p4 - Meet ✅ 2026-05-15
+
+14/05/26:
+- Studying:
+	- [ ] p1 - Read Software Testing book 'Unit Testing Principles, Practices, and Patterns' - Vladimir Khorikov
+	- [ ] p2 - Software Testing  book 'Unit Testing Principles, Practices, and Patterns' - Vladimir Khorikov
+	- [ ] p3 - Software Testing  book 'Unit Testing Principles, Practices, and Patterns' - Vladimir Khorikov
+- Converting bitcoin core tests in corepc tests:
+	- [x] p1 - Deciding exactly what should corepc test have ✅ 2026-05-15
+	- [x] p2 - Refining doctrine ✅ 2026-05-15
+	- [x] p3 - Slowly attempting to do tests, refactoring multiple times ✅ 2026-05-15
+	- [x] p4 - Ensure invariants tested are relevant ✅ 2026-05-15
+	- [x] p5 - Converting tests ✅ 2026-05-15
+	- [x] p6 - Converting tests ✅ 2026-05-15
+- Running task: https://github.com/rust-bitcoin/corepc/pull/570
+	- [x] p1 - Handle reviews ✅ 2026-05-15
+	- [x] p2 - Handle reviews ✅ 2026-05-15
+	- [x] p3 - Handle review again ✅ 2026-05-15
+	- [x] p4 - Handle reviews ✅ 2026-05-15
+
+15/05/26:
+- Studying
+	- [x] p1 - Reading about software design and architecture ✅ 2026-05-15
+	- [x] p2 - Reading about software design and architecture ✅ 2026-05-15
+- New PR: https://github.com/rust-bitcoin/corepc/pull/592/changes
+- Running task: https://github.com/rust-bitcoin/corepc/pull/570
+	- [x] p1 - Reorganize PR commits ✅ 2026-05-15
+- Converting bitcoin core tests in corepc tests:
+	- [x] p7 - Converting tests ✅ 2026-05-15
+	- [x] p8 - Converting tests ✅ 2026-05-15
+	- [x] p9 - Converting tests ✅ 2026-05-15
+	- [x] p10 - Converting tests ✅ 2026-05-15
+	- [x] p11 - Converting tests ✅ 2026-05-15
