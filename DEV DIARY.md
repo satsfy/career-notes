@@ -658,3 +658,18 @@
 	- [x] p9 - Converting tests ✅ 2026-05-15
 	- [x] p10 - Converting tests ✅ 2026-05-15
 	- [x] p11 - Converting tests ✅ 2026-05-15
+- PR reviewed: https://github.com/rust-bitcoin/corepc/pull/586
+
+18/05/26:
+- Address Review https://github.com/rust-bitcoin/corepc/pull/592
+- Review https://github.com/rust-bitcoin/corepc/pull/578#issuecomment-4468284172
+- Do v31 fixes https://github.com/rust-bitcoin/corepc/pull/586
+- Implement corepc v31
+- Add Bitcoin Core tests to corepc
+	- [ ] p1 - 
+
+19/05/26:
+- Address Review: https://github.com/bitcoin/bitcoin/pull/34764
+- New PR Idea: improve into_model() conversion tests in corepc
+- Finish https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/128
+- Finish https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/124
