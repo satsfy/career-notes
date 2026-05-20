@@ -665,11 +665,28 @@
 - Review https://github.com/rust-bitcoin/corepc/pull/578#issuecomment-4468284172
 - Do v31 fixes https://github.com/rust-bitcoin/corepc/pull/586
 - Implement corepc v31
+	- [x] p1 - Assemble all v31 changes available ✅ 2026-05-18
+	- [x] p2 - Draft v0 ✅ 2026-05-18
+	- [x] p3 - Draft v0 ✅ 2026-05-18
+	- [x] p4 - Draft v0 ✅ 2026-05-18
 - Add Bitcoin Core tests to corepc
-	- [ ] p1 - 
+	- [x] p1 - ✅ 2026-05-20
+	- [x] p2 - ✅ 2026-05-20
+	- [x] p3 - ✅ 2026-05-20
 
-19/05/26:
+20/05/26:
+- Reviewed PR: https://github.com/rust-bitcoin/corepc/pull/597#pullrequestreview-4329981998
+- Reviewed PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6200
+- Issue comment: https://github.com/rust-bitcoin/rust-bitcoin/issues/6199#issuecomment-4501544119
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6212
+	- My first standlone Rust bitcoin PR
+
+21/05/26:
 - Address Review: https://github.com/bitcoin/bitcoin/pull/34764
+- Address Electrsd Review
+- Address Version Upgrade
+- Finish core tests PR
+- Finish V31 PR
 - New PR Idea: improve into_model() conversion tests in corepc
 - Finish https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/128
 - Finish https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/124
