@@ -18,4 +18,9 @@
 	- [ ] "Architectural Tradeoffs in Designing Bitcoin Clients" post
 	- [ ] Stealth post
 
-
+PR ideas:
+- corepc:
+	- improve into_model() conversion tests in corepc
+- bip39:
+	- https://github.com/satsfy/p-rust-bip39/pull/1/changes
+	- Motivation: https://github.com/rust-bitcoin/rust-bitcoin/issues/6199#issuecomment-4501714095

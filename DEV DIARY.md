@@ -682,11 +682,11 @@
 	- My first standlone Rust bitcoin PR
 
 21/05/26:
-- Address Review: https://github.com/bitcoin/bitcoin/pull/34764
+- Finish V31 PR
 - Address Electrsd Review
+- Address Review: https://github.com/bitcoin/bitcoin/pull/34764
 - Address Version Upgrade
 - Finish core tests PR
-- Finish V31 PR
-- New PR Idea: improve into_model() conversion tests in corepc
+- Fix Bech32 Lint Err: https://github.com/rust-bitcoin/rust-bech32/pull/265#issuecomment-4493808122
 - Finish https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/128
 - Finish https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/124
