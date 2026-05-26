@@ -697,6 +697,16 @@
 - Open corepc bitcoin core tests pr: https://github.com/rust-bitcoin/corepc/pull/606
   
 26/05/26:
-- Write-up monthly recap
+- Addressed Reviews: https://github.com/rust-bitcoin/rust-bitcoin/pull/6212
+- Reviwed https://github.com/rust-bitcoin/rust-bitcoin/pull/6224#pullrequestreview-4367350336
+- Write-up monthly recap [[MAY REPORT]]
 - Complete corepc production client with codegen
+- Show and Tell meeting
+- Mentor meeting
+
+27/05/26:
 - Review Will's bitcoin core pr [[carreira/artifacts/PRs/bitcoin core - OpenRPC|bitcoin core - OpenRPC]]
+
+
+
+
