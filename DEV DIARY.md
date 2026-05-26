@@ -649,7 +649,6 @@
 - Studying
 	- [x] p1 - Reading about software design and architecture ✅ 2026-05-15
 	- [x] p2 - Reading about software design and architecture ✅ 2026-05-15
-- New PR: https://github.com/rust-bitcoin/corepc/pull/592/changes
 - Running task: https://github.com/rust-bitcoin/corepc/pull/570
 	- [x] p1 - Reorganize PR commits ✅ 2026-05-15
 - Converting bitcoin core tests in corepc tests:
@@ -661,7 +660,6 @@
 - PR reviewed: https://github.com/rust-bitcoin/corepc/pull/586
 
 18/05/26:
-- Address Review https://github.com/rust-bitcoin/corepc/pull/592
 - Review https://github.com/rust-bitcoin/corepc/pull/578#issuecomment-4468284172
 - Do v31 fixes https://github.com/rust-bitcoin/corepc/pull/586
 - Implement corepc v31
@@ -682,11 +680,23 @@
 	- My first standlone Rust bitcoin PR
 
 21/05/26:
-- Finish V31 PR
-- Address Electrsd Review
-- Address Review: https://github.com/bitcoin/bitcoin/pull/34764
-- Address Version Upgrade
-- Finish core tests PR
-- Fix Bech32 Lint Err: https://github.com/rust-bitcoin/rust-bech32/pull/265#issuecomment-4493808122
-- Finish https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/128
-- Finish https://gitea.bitcoin.ninja/rust-bitcoin/rust-psbt/pulls/124
+- Opened PR https://github.com/rust-bitcoin/rust-bech32/pull/266
+- Responded to reviews https://github.com/rust-bitcoin/rust-bitcoin/pull/6212
+- Reviewed V31 PR https://github.com/rust-bitcoin/corepc/pull/598#pullrequestreview-4339869099
+
+22/05/26:
+- Address Electrsd Review https://github.com/rust-bitcoin/corepc/pull/570
+
+23/05/26:
+- Address Core Review: https://github.com/bitcoin/bitcoin/pull/34764
+
+25/05/26:
+- Addressed review https://github.com/rust-bitcoin/rust-bech32/pull/266
+- Addressed Reviews: https://github.com/rust-bitcoin/rust-bitcoin/pull/6212
+- Reading bips
+- Open corepc bitcoin core tests pr: https://github.com/rust-bitcoin/corepc/pull/606
+  
+26/05/26:
+- Write-up monthly recap
+- Complete corepc production client with codegen
+- Review Will's bitcoin core pr [[carreira/artifacts/PRs/bitcoin core - OpenRPC|bitcoin core - OpenRPC]]
