@@ -698,15 +698,20 @@
   
 26/05/26:
 - Addressed Reviews: https://github.com/rust-bitcoin/rust-bitcoin/pull/6212
-- Reviwed https://github.com/rust-bitcoin/rust-bitcoin/pull/6224#pullrequestreview-4367350336
-- Write-up monthly recap [[MAY REPORT]]
-- Complete corepc production client with codegen
+- Reviewed: https://github.com/rust-bitcoin/rust-bitcoin/pull/6224#pullrequestreview-4367350336
 - Show and Tell meeting
 - Mentor meeting
 
 27/05/26:
+- Got merged in rust bitcoin: https://github.com/rust-bitcoin/rust-bitcoin/pull/6212
+- Closed a rust-bitcoin issue https://github.com/rust-bitcoin/rust-bitcoin/issues/6199#event-26017647598
+- Open chore PR: https://github.com/rust-bitcoin/rust-bech32/pull/268
+
+28/05/26:
+- Create follow up PR on rust-bitcoin bip32 module:
+
+- Open up N v31 PRs
+- Complete corepc production client with codegen
+- Write-up monthly recap [[MAY REPORT]]
+- Catch up on PSBT
 - Review Will's bitcoin core pr [[carreira/artifacts/PRs/bitcoin core - OpenRPC|bitcoin core - OpenRPC]]
-
-
-
-
