@@ -709,9 +709,15 @@
 
 28/05/26:
 - Create follow up PR on rust-bitcoin bip32 module:
+- Open "hotfix" rust-bitcoin PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6269
+- Open rust-bitcoin followup pr: https://github.com/rust-bitcoin/rust-bitcoin/pull/6271
 
-- Open up N v31 PRs
-- Complete corepc production client with codegen
+29/05/26:
+- Issue comment: https://github.com/rust-bitcoin/corepc/issues/238#issuecomment-4578255911
+- Opened corepc v31 PR: https://github.com/rust-bitcoin/corepc/pull/615
 - Write-up monthly recap [[MAY REPORT]]
+
+30/05/26:
+- Complete corepc production client with codegen
 - Catch up on PSBT
 - Review Will's bitcoin core pr [[carreira/artifacts/PRs/bitcoin core - OpenRPC|bitcoin core - OpenRPC]]
