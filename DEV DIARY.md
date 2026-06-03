@@ -134,9 +134,6 @@
 11/4/26:
 - Offline
 
-12/4/26:
-- Offline: Domingo
-
 13/4/26:
 - Prepare for upcoming rust-bitcoin meeting
 	- [x] p1 - Read up on rust-bitcoin repos ecossytem
@@ -263,11 +260,6 @@
 	- [x] p2 -  Address reviews
 	- [x] p3 - Address reviews
 
-
-19/4/26:
-- Offline: sunday
-- Merged: https://github.com/rust-bitcoin/rust-bech32/pull/255
-
 20/4/26:
 - Education:
 	- [x] Read posts in Delving Bitcoin
@@ -335,43 +327,14 @@
 - Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6052
 - Merged PR: https://github.com/rust-bitcoin/rust-bech32/pull/259
 - Running Task: https://github.com/rust-bitcoin/corepc/pull/570
-	- [x] p16 - Polishing final version
-	- [x] p17 - Working on test feature flags
-	- [x] p18 - Addressing testing errors
-	- [x] p19 - Inspecting each version of electrsd 
-	- [x] p20 - Inspecting each version of electrsd 
-	- [x] p21 - Working on test feature flags
-	- [x] p22- Iterating
-	- [x] p23 - Iterating
-	- [x] p24 - Iterating
-	- [x] p25 - Iterating
-	- [x] p26 - Iterating
 	- Opened PR: https://github.com/rust-bitcoin/corepc/pull/570
-- [x] Bitdevs
+- Bitdevs
 
 24/4/26:
 - Running Task: https://github.com/rust-bitcoin/corepc/pull/570
-	- [x] p27 - Redoing the PR based on feedack
-	- [x] p28 - Redoing the PR based on feedack
-	- [x] p29 - Redoing the PR based on feedack
-	- [x] p30 - Redoing the PR based on feedack
-	- [x] p31 - Redoing the PR based on feedack
-	- [x] p32 - Redoing the PR based on feedack
-	- [x] p33 - Redoing the PR based on feedack
-	- [x] p34 - Redoing the PR based on feedack
-	- [x] p35 - Redoing the PR based on feedack
-	- [x] p36 - Redoing the PR based on feedack
-	- [x] p37 - Redoing the PR based on feedack
 25/4/26:
 - New task: Read up issues in rust-bitcoin
-	- [x] p1 - Read context for N issues...
-	- [x] p2 - Read context for N issues...
-	- [x] p3 - Read context for N issues...
-	- [x] p4 - Read context for N issues...
 	- So I have selected about 11 valuable issues to tackle for version 1.0 of rust-bitcoin
-
-26/4/26:
-- Offline: domingo
 
 27/4/26:
 - Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
@@ -715,9 +678,16 @@
 29/05/26:
 - Issue comment: https://github.com/rust-bitcoin/corepc/issues/238#issuecomment-4578255911
 - Opened corepc v31 PR: https://github.com/rust-bitcoin/corepc/pull/615
-- Write-up monthly recap [[MAY REPORT]]
+- Write-up monthly report [[MAY REPORT]]
 
-30/05/26:
-- Complete corepc production client with codegen
-- Catch up on PSBT
-- Review Will's bitcoin core pr [[carreira/artifacts/PRs/bitcoin core - OpenRPC|bitcoin core - OpenRPC]]
+31/05/26:
+- Send monthly report [[MAY REPORT]]
+
+01/05/26:
+- Address reviews: https://github.com/rust-bitcoin/corepc/pull/615
+
+02/05/26:
+
+03/05/26:
+- First Secp PR: https://github.com/rust-bitcoin/rust-secp256k1/pull/747
+
