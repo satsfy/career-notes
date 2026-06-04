@@ -678,7 +678,6 @@
 29/05/26:
 - Issue comment: https://github.com/rust-bitcoin/corepc/issues/238#issuecomment-4578255911
 - Opened corepc v31 PR: https://github.com/rust-bitcoin/corepc/pull/615
-- Write-up monthly report [[MAY REPORT]]
 
 31/05/26:
 - Send monthly report [[MAY REPORT]]
@@ -687,7 +686,12 @@
 - Address reviews: https://github.com/rust-bitcoin/corepc/pull/615
 
 02/05/26:
+- Work 0.31.x rust-bitcoin CI
 
 03/05/26:
 - First Secp PR: https://github.com/rust-bitcoin/rust-secp256k1/pull/747
+- Adress bitcoin core reviews https://github.com/bitcoin/bitcoin/pull/34764
 
+04/06/26:
+- Addressed reviews: https://github.com/bitcoin/bitcoin/pull/34764
+- Working on prod client codegen optional args.
