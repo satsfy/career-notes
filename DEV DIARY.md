@@ -683,15 +683,33 @@
 - Send monthly report [[MAY REPORT]]
 
 01/05/26:
+- Work on codegen production async client for corepc 
 - Address reviews: https://github.com/rust-bitcoin/corepc/pull/615
 
 02/05/26:
+- Work on codegen production async client for corepc 
 - Work 0.31.x rust-bitcoin CI
 
 03/05/26:
+- Work on codegen production async client for corepc 
 - First Secp PR: https://github.com/rust-bitcoin/rust-secp256k1/pull/747
 - Adress bitcoin core reviews https://github.com/bitcoin/bitcoin/pull/34764
 
 04/06/26:
+- Work on codegen production async client for corepc 
 - Addressed reviews: https://github.com/bitcoin/bitcoin/pull/34764
 - Working on prod client codegen optional args.
+
+05/06/26:
+- Work on codegen production async client for corepc 
+- https://github.com/rust-bitcoin/rust-bitcoin/pull/6322
+
+08/06/26:
+- Strong review at https://github.com/bitcoin/bitcoin/pull/34683#pullrequestreview-4452525156
+- Created lint fix PR: https://github.com/rust-bitcoin/rust-miniscript/pull/984
+	- well its my first rust-miniscript pr! yay!
+- Created PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6334
+- Reviewed: https://github.com/rust-bitcoin/rust-bech32/pull/270#pullrequestreview-4453237300
+- Reviewed: https://github.com/rust-bitcoin/rust-bitcoin/pull/6324#pullrequestreview-4453242212
+- Reviewed: https://github.com/rust-bitcoin/rust-bitcoin/pull/6328#pullrequestreview-4453317325
+- 
