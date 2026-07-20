@@ -740,7 +740,6 @@
 - Work on corepc codegen production client
 - corepc fixes pr: https://github.com/rust-bitcoin/corepc/pull/635
 
-
 22/06/26:
 - Fix rust-bitcoin CI error and broken automatic update https://github.com/rust-bitcoin/rust-bitcoin/pull/6404
 - Fixed a CI bot update command error https://github.com/rust-bitcoin/rust-miniscript/pull/993
@@ -756,17 +755,11 @@
 26/06/26:
 - Open PR for 0.32.x CI fix rust-bitcoin https://github.com/rust-bitcoin/rust-bitcoin/pull/6425
 
-30/06/26:
-- Wrote the 
-
 01/07/26:
 - Review PR https://github.com/rust-bitcoin/corepc/pull/651
 
 02/07/26:
 - Wrote SEO optimization on Vinteum's website https://github.com/vinteumorg/vinteum-site/pull/2
-
-03/07/26:
-- 
 
 10/07/26:
 - New PR: https://github.com/rust-bitcoin/rust-miniscript/pull/1001
