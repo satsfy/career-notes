@@ -1,8 +1,3 @@
-**Current goal:** Establish a grant-able foothold in bitcoin open source ecossystem
-- **Subgoal:** Fix bitcoin node clients and types situation in rust bitcoin, corepc, bitcoin core 
- 
----------
-
 1/4/26:
 - earlier work on:
 	- https://github.com/bitcoin/bitcoin/pull/34799
