@@ -760,14 +760,12 @@
 
 01/07/26:
 - Review PR https://github.com/rust-bitcoin/corepc/pull/651
-- 
 
 02/07/26:
 - Wrote SEO optimization on Vinteum's website https://github.com/vinteumorg/vinteum-site/pull/2
 
 03/07/26:
-
-
+- 
 
 10/07/26:
 - New PR: https://github.com/rust-bitcoin/rust-miniscript/pull/1001
@@ -786,10 +784,9 @@
 - Review on https://github.com/rust-bitcoin/rust-bitcoin/pull/6508#pullrequestreview-4710020396
 - New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6559
 
-
 17/07/26:
 - New PR: https://git.rust-bitcoin.org/rust-bitcoin/rust-bitcoin-maintainer-tools/pulls/231
 - Review: https://github.com/rust-bitcoin/rust-bitcoin/pull/6576
 
 20/07/26:
-- 
+- Writing grant letter
