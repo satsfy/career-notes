@@ -1,8 +1,3 @@
-**Current goal:** Establish a grant-able foothold in bitcoin open source ecossystem
-- **Subgoal:** Fix bitcoin node clients and types situation in rust bitcoin, corepc, bitcoin core 
- 
----------
-
 1/4/26:
 - earlier work on:
 	- https://github.com/bitcoin/bitcoin/pull/34799
@@ -712,4 +707,89 @@
 - Reviewed: https://github.com/rust-bitcoin/rust-bech32/pull/270#pullrequestreview-4453237300
 - Reviewed: https://github.com/rust-bitcoin/rust-bitcoin/pull/6324#pullrequestreview-4453242212
 - Reviewed: https://github.com/rust-bitcoin/rust-bitcoin/pull/6328#pullrequestreview-4453317325
+
+09/06/26:
+- Work on corepc codegen production client
+- Corepc design discussion issue contribution: https://github.com/rust-bitcoin/corepc/issues/620#issuecomment-4661502132
+- Ended an issue https://github.com/rust-bitcoin/rust-bitcoin/issues/3696
+
+10/06/26:
+- Work on corepc codegen production client
+- Upgrade Floresta and BDK to rust-bitcoin master to find reasons of incompatibilities
+
+11/06/26:
+- Work on corepc codegen production client
+- Created corepc issue https://github.com/rust-bitcoin/corepc/issues/621
+- Review bitcoin core RPC pr https://github.com/bitcoin/bitcoin/pull/34683
+
+12/06/26:
+- Work on corepc codegen production client
+
+13/06/26:
+- Work on corepc codegen production client
+- Address review concerns on bitcoin core https://github.com/bitcoin/bitcoin/pull/34764
+
+15/06/26:
+- Work on corepc codegen production client
+
+16/06/26:
+- Work on corepc codegen production client
+
+17/06/26:
+- Work on corepc codegen production client
+- corepc fixes pr: https://github.com/rust-bitcoin/corepc/pull/635
+
+
+22/06/26:
+- Fix rust-bitcoin CI error and broken automatic update https://github.com/rust-bitcoin/rust-bitcoin/pull/6404
+- Fixed a CI bot update command error https://github.com/rust-bitcoin/rust-miniscript/pull/993
+
+23/06/26:
+- Review https://github.com/rust-bitcoin/corepc/pull/640#pullrequestreview-4557300598
+
+24/06/26:
+- Review https://github.com/rust-bitcoin/corepc/pull/644
+- Review https://github.com/rust-bitcoin/corepc/pull/647
+- Review https://github.com/rust-bitcoin/corepc/pull/642#pullrequestreview-4564529764
+
+26/06/26:
+- Open PR for 0.32.x CI fix rust-bitcoin https://github.com/rust-bitcoin/rust-bitcoin/pull/6425
+
+30/06/26:
+- Wrote the 
+
+01/07/26:
+- Review PR https://github.com/rust-bitcoin/corepc/pull/651
+- 
+
+02/07/26:
+- Wrote SEO optimization on Vinteum's website https://github.com/vinteumorg/vinteum-site/pull/2
+
+03/07/26:
+
+
+
+10/07/26:
+- New PR: https://github.com/rust-bitcoin/rust-miniscript/pull/1001
+
+13/07/26:
+- New PR: https://github.com/rust-bitcoin/corepc/pull/662
+
+14/07/26:
+- New PR: https://github.com/rust-bitcoin/corepc/pull/662
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6547
+- New PR: https://github.com/bitcoin-core/bitcoincore.org/pull/1267
+
+15/07/26:
+- Review on rbmt: https://git.rust-bitcoin.org/rust-bitcoin/rust-bitcoin-maintainer-tools/pulls/227#issuecomment-425722
+- Review on rbmt release: https://git.rust-bitcoin.org/rust-bitcoin/rust-bitcoin-maintainer-tools/pulls/229
+- Review on https://github.com/rust-bitcoin/rust-bitcoin/pull/6508#pullrequestreview-4710020396
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6559
+
+
+17/07/26:
+- New PR: https://git.rust-bitcoin.org/rust-bitcoin/rust-bitcoin-maintainer-tools/pulls/231
+- Review: https://github.com/rust-bitcoin/rust-bitcoin/pull/6576
+
+20/07/26:
 - 
