@@ -707,7 +707,7 @@
 - Reviewed: https://github.com/rust-bitcoin/rust-bech32/pull/270#pullrequestreview-4453237300
 - Reviewed: https://github.com/rust-bitcoin/rust-bitcoin/pull/6324#pullrequestreview-4453242212
 - Reviewed: https://github.com/rust-bitcoin/rust-bitcoin/pull/6328#pullrequestreview-4453317325
-<<<<<<< HEAD
+
 
 09/06/26:
 - Work on corepc codegen production client
