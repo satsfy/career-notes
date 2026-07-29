@@ -784,3 +784,63 @@
 
 20/07/26:
 - Writing grant letter
+
+22/07/26:
+- https://github.com/rust-bitcoin/rust-bitcoin/pull/6603
+
+25/07/26:
+- New rust-bitcoin CI fix PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6613
+- Update old PR https://github.com/rust-bitcoin/rust-bitcoin/pull/6547
+- Send grant proposal
+
+26/07/26:
+- Review https://github.com/rust-bitcoin/rust-bitcoin/pull/6582
+- Fix branch refs https://github.com/rust-bitcoin/rust-bitcoin/pull/6616/changes
+- Review https://github.com/rust-bitcoin/rust-bitcoin/pull/6588#pullrequestreview-4782329509
+- Concept NACK on external contributor https://github.com/rust-bitcoin/rust-miniscript/pull/1007#pullrequestreview-4782406265
+- Fix CI broken rustc updates: https://github.com/rust-bitcoin/rust-bitcoin/pull/6618
+
+27/07/26:
+
+- fuzz corpora save for rust-bitcoin on qa-assets repo:
+	- [x] Fuzz all files in rust-bitcoin/fuzz repo ✅ 2026-07-27
+	- [x] Validating that basic fuzz solution makes sense ✅ 2026-07-28
+- Review 3 PRs today:
+	- [x] Review: https://github.com/rust-bitcoin/rust-bitcoin/pull/6615#pullrequestreview-4789815761
+	- [x] Review: https://github.com/rust-bitcoin/rust-bitcoin/pull/6625 ✅ 2026-07-27
+- Do CI fixes:
+	- [x] https://github.com/rust-bitcoin/rust-bitcoin/pull/6578 ✅ 2026-07-28
+	- [x] https://github.com/rust-bitcoin/rust-bitcoin/pull/6579 ✅ 2026-07-28
+- [x] Fix this PR https://github.com/rust-bitcoin/rust-bitcoin/pull/6618
+
+28/07/26:
+- [x] Prepare for upcoming mentorship
+- fuzz corpora save for rust-bitcoin on qa-assets repo:
+	- [x] Implement the rust-bitcoin repo ci for proper fuzzing with corpus ✅ 2026-07-28
+- Reviews:
+	- [x] https://github.com/rust-bitcoin/rust-bitcoin/pull/6596 ✅ 2026-07-28
+	- [x] https://github.com/rust-bitcoin/rust-miniscript/pull/1007 ✅ 2026-07-28
+-  [x] Find fuzzing error and open issue https://github.com/rust-bitcoin/rust-bitcoin/issues/6634
+
+29/07/26:
+- Primitives quality:
+	- Tobin's call to review https://github.com/rust-bitcoin/rust-bitcoin/issues/3632#issuecomment-5111452576
+	- [ ] Review the latest mpagot PRs regarding primitives
+		- [ ] https://github.com/rust-bitcoin/rust-bitcoin/pull/6621
+		- [ ] https://github.com/rust-bitcoin/rust-bitcoin/pull/6622
+		- [ ] https://github.com/rust-bitcoin/rust-bitcoin/pull/6623
+- Implement compat layer on BDK:
+	- [ ] plan out what needs to happen
+
+- fuzz corpora save for rust-bitcoin on qa-assets repo:
+	- [x] Implement the rust-bitcoin repo ci for proper fuzzing with corpus ✅ 2026-07-28
+	- [ ] Test on my own github forks
+	- [ ] Port to forgejo
+	- [ ] Lift up a PR for qa-assets in forgejo
+	- [ ] Fix / sunset the rust-bitcoin fuzzing (it is REALLY bad) 
+
+30/07/26:
+
+
+31/07/26:
+- Write monthly report
