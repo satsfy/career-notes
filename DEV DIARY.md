@@ -823,24 +823,46 @@
 -  [x] Find fuzzing error and open issue https://github.com/rust-bitcoin/rust-bitcoin/issues/6634
 
 29/07/26:
-- Primitives quality:
-	- Tobin's call to review https://github.com/rust-bitcoin/rust-bitcoin/issues/3632#issuecomment-5111452576
+- Units / Primitives quality:
+	- Tobin's call to review units https://github.com/rust-bitcoin/rust-bitcoin/issues/3632#issuecomment-5111452576
+	- [x] Fix unit's sequence default argument and API errors https://github.com/rust-bitcoin/rust-bitcoin/pull/6645 ✅ 2026-07-29
+- Implement compat layer on BDK:
+	- [x] Read psbt compat layer for inspiration - https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/pulls/195 ✅ 2026-07-29
+	 - [x] Draft a rust-bitcoin PR with units compat layer under my control - https://github.com/satsfy/rust-bitcoin/pull/38
+	 - [x] Draft a rust-miniscript PR implementing units compat layer - https://github.com/satsfy/rust-miniscript/pull/7
+- Reviews:
+	- [x] https://github.com/rust-bitcoin/rust-bitcoin/pull/6635/
+
+30/07/26:
+- Reviews:
+	- [x] https://github.com/rust-bitcoin/rust-bitcoin/pull/6608 ✅ 2026-07-30
+- Respond to review:
+	- [x] https://github.com/rust-bitcoin/rust-bitcoin/pull/6547#issuecomment-5119265114 ✅ 2026-07-30
+- Issue discussions:
+	- [x] https://github.com/rust-bitcoin/rust-bitcoin/issues/6637#issuecomment-5135589838 ✅ 2026-07-30
+
+31/07/26:
+- [ ] Write monthly report
+- fuzz corpora save for rust-bitcoin on qa-assets repo:
+	- [x] Test on my own github forks ✅ 2026-07-31
+	- [ ] Verify that corpus is getting loaded and saved each run
+	- [ ] Deliberatly induce errors to prove fuzzing is working well
+	- [ ] Integrate corpus in reviewable PR  properly
+	- [ ] Add corpus-based fuzz check on each PR's CI
+	- [ ] Design issue opening in job
+	- [ ] Raise the PRs
+- Units / Primitives quality:
+	- Tobin's call to review units https://github.com/rust-bitcoin/rust-bitcoin/issues/3632#issuecomment-5111452576
 	- [ ] Review the latest mpagot PRs regarding primitives
 		- [ ] https://github.com/rust-bitcoin/rust-bitcoin/pull/6621
 		- [ ] https://github.com/rust-bitcoin/rust-bitcoin/pull/6622
 		- [ ] https://github.com/rust-bitcoin/rust-bitcoin/pull/6623
 - Implement compat layer on BDK:
-	- [ ] plan out what needs to happen
-
-- fuzz corpora save for rust-bitcoin on qa-assets repo:
-	- [x] Implement the rust-bitcoin repo ci for proper fuzzing with corpus ✅ 2026-07-28
-	- [ ] Test on my own github forks
-	- [ ] Port to forgejo
-	- [ ] Lift up a PR for qa-assets in forgejo
-	- [ ] Fix / sunset the rust-bitcoin fuzzing (it is REALLY bad) 
-
-30/07/26:
-
-
-31/07/26:
-- Write monthly report
+	 - [ ] Draft a BDK PR implementing units compat layer - 
+	 - [ ] Identify what worked, what doesnt.
+	 - [ ] Propose an improvement
+- Reviews:
+	- [x] https://github.com/rust-bitcoin/rust-bitcoin/pull/6635#pullrequestreview-4831505335
+- Issues created:
+	- [ ] https://github.com/rust-bitcoin/qa-assets/issues/1
+	- [ ] 
