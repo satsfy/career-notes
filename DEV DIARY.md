@@ -864,5 +864,4 @@
 - Reviews:
 	- [x] https://github.com/rust-bitcoin/rust-bitcoin/pull/6635#pullrequestreview-4831505335
 - Issues created:
-	- [ ] https://github.com/rust-bitcoin/qa-assets/issues/1
-	- [ ] 
+	- [x] https://github.com/rust-bitcoin/qa-assets/issues/1 ✅ 2026-07-31
