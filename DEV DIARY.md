@@ -842,11 +842,20 @@
 	- [x] https://github.com/rust-bitcoin/rust-bitcoin/issues/6637#issuecomment-5135589838 ✅ 2026-07-30
 
 31/07/26:
-- [ ] Write monthly report
+- [x] Write monthly report ✅ 2026-08-03
 - fuzz corpora save for rust-bitcoin on qa-assets repo:
 	- [x] Test on my own github forks ✅ 2026-07-31
-	- [ ] Verify that corpus is getting loaded and saved each run
-	- [ ] Deliberatly induce errors to prove fuzzing is working well
+	- [x] Verify that corpus is getting loaded and saved each run ✅ 2026-07-31
+	- [x] Deliberatly induce errors to prove fuzzing is working well ✅ 2026-07-31
+- Reviews:
+	- [x] https://github.com/rust-bitcoin/rust-bitcoin/pull/6635#pullrequestreview-4831505335
+- Issues created:
+	- [x] https://github.com/rust-bitcoin/qa-assets/issues/1 ✅ 2026-07-31
+
+3/8/26:
+- Issues created
+	- https://git.rust-bitcoin.org/rust-bitcoin/corepc/issues/676
+- fuzz corpora save for rust-bitcoin on qa-assets repo:
 	- [ ] Integrate corpus in reviewable PR  properly
 	- [ ] Add corpus-based fuzz check on each PR's CI
 	- [ ] Design issue opening in job
@@ -861,7 +870,4 @@
 	 - [ ] Draft a BDK PR implementing units compat layer - 
 	 - [ ] Identify what worked, what doesnt.
 	 - [ ] Propose an improvement
-- Reviews:
-	- [x] https://github.com/rust-bitcoin/rust-bitcoin/pull/6635#pullrequestreview-4831505335
-- Issues created:
-	- [x] https://github.com/rust-bitcoin/qa-assets/issues/1 ✅ 2026-07-31
+
