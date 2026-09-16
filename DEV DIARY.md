@@ -1,4 +1,4 @@
-1/4/26:
+01/04/26:
 - earlier work on:
 	- https://github.com/bitcoin/bitcoin/pull/34799
 	- https://github.com/bitcoin/bitcoin/pull/34683
@@ -9,7 +9,7 @@
 - Diagnose what I think is most needed on corepc
 	- [x] Explore the repo to get thae current codebase state
 
-2/4/26:
+02/04/26:
 - Prepare one PR today
 	- [x] p1 - Prepare one simple back to action PR 
 	- [x] p2 - Read  https://github.com/rust-bitcoin/corepc/pull/505
@@ -17,20 +17,20 @@
 - Research the state of corepc client in 2 pomoros max
 	- [x] p1 - Read https://tobin.cc/blog/core-rpc-client/
 
-3/4/26:
+03/04/26:
 - Offline: Sexta Feira da Paixão
 
-4/4/26:
+04/04/26:
 - Adress the corepc CI  to `cargo-rbmt`
 	- [x] p1 - Read and implement v1 for request in https://github.com/rust-bitcoin/corepc/issues/538
 - Consider codegen
 - Do A PR review in corepc today
 - Read all open issues and write a repor
 
-5/4/26:
+05/04/26:
 - Offline: Páscoa
 
-6/4/26:
+06/04/26:
 - New task: Wrap up corepc ci migration to cargo-rbmt
 	- [x] p1 - fix the tests failing on [my local branch](https://github.com/satsfy/corepc/pull/27)
 	- [x] p2 - fix the tests failing on [my local branch](https://github.com/satsfy/corepc/pull/27)
@@ -54,7 +54,7 @@
 - corepc plans:
 	- [x] Read corepc open issues and write a report
 
-7/4/26:
+07/04/26:
 - Running task: Wrap up corepc ci migration to cargo-rbmt
 	- Maintainers receptive to the idea
 	- [x] p1 - shaving off the PR
@@ -72,7 +72,7 @@
 - Review a PR in rust-bitcoin to get familiarized with the project
 	- [x] p1- Read what I can surrounding the project to understand what it is 
 
-8/4/26
+08/04/26:
 - Workshop Slow blocks
 	- [x] Sync signet
 	- [x] Receive live slow blocks
@@ -95,7 +95,7 @@
  - Running task: corepc ci migration to cargo-rbmt
 	 - [x] p1-  Address reviews
 
-9/4/26:
+09/04/26:
  - Running task: corepc ci migration to cargo-rbmt
 	 - [x] p1 -  Address reviews
 	 - [x] p2 -  Address reviews
@@ -111,7 +111,7 @@
 	- [x] p2 - Read what I can surrounding the project to understand what it is 
 	- [x] p3 - Open codebase and identify general components
 
-10/4/26:
+10/04/26:
 - Education:
 	- [x] Read BIPS and optech
 	- [x] Read about rust-bitcoin
@@ -126,10 +126,10 @@
 	- [x] p7 - Preparing the final proposal
 	- At this point in time, it has become a well defensible design proposal
 
-11/4/26:
+11/04/26:
 - Offline
 
-13/4/26:
+13/04/26:
 - Prepare for upcoming rust-bitcoin meeting
 	- [x] p1 - Read up on rust-bitcoin repos ecossytem
 	- [x] p2 - Read up on rust-bitcoin repos ecossytem
@@ -146,7 +146,7 @@
 - rust-bitcoin:
 	- [x] p1 - Exploring repos and issues
 
-14/4/26:
+14/04/26:
 - Pick a project for today:
 	- [x] p1 - Read email and figure out what is happening in rust-bitcoin
 	- [x] p2 - Understand release candidates situation and project context
@@ -174,7 +174,7 @@
 	- [x] p1 - Integrating the corepc changes to cut out line of code from current solution
 	- [x] p2 - get all ci to green
 
-15/4/26:
+15/04/26:
 - Running task: [finish this cargo ci migration to rbmt in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/pull/234)
 	- [x] p1 - Integrating the corepc changes to cut out line of code from current solution
 	- [x] p2 - get all ci to green
@@ -199,7 +199,7 @@
 	- [x] p3 - polish final version and 
 	- [x] p4 - verify the change I did is really what is supposed to have happened
 
-16/4/26:
+16/04/26:
 - Running task: [Fix all mutation test problems in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/issues/252)
 	- [x] p5 - Reviewing the 75 new tests and 1 modified test
 	- [x] p6 - Cutting down the amount of tests
@@ -218,7 +218,7 @@
 - Running task: [finish this cargo ci migration to rbmt in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/pull/234)
 	- [x] p7 - Address PR reviews
 
-17/4/26:
+17/04/26:
 - Running task: fix a off by one error detected in rust-bech32
 	- Merged PR: https://github.com/rust-bitcoin/rust-bech32/pull/253#event-24608128810
 - Writing codegen proposal
@@ -249,13 +249,13 @@
 	- [x] p1 - Acquire context and start
 	- [x] p2 - Learn more about features in rust  
 
-18/4/26:
+18/04/26:
 - Running task: [Fix all mutation test problems in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/issues/252)
 	- [x] p1 - Address reviews
 	- [x] p2 -  Address reviews
 	- [x] p3 - Address reviews
 
-20/4/26:
+20/04/26:
 - Education:
 	- [x] Read posts in Delving Bitcoin
 - Running task: [finish this cargo ci migration to rbmt in rust-bech32](https://github.com/rust-bitcoin/rust-bech32/pull/234)
@@ -277,7 +277,7 @@
 	- [x] p2 - Investigate the codebase
 	- [x] p3 - Work on solving each of the 62 prerelease problems
 
-21/4/26:
+21/04/26:
 - Merged PR: https://github.com/rust-bitcoin/rust-bech32/pull/254
 - Running Task: https://github.com/rust-bitcoin/corepc/issues/58
 	- [x] p3 - inspect claude attempt to convert all these tests for approach
@@ -300,7 +300,7 @@
 - Codegen:
 	-  [x] p1 - Patch up codegen repo for https://github.com/satsfy/rust-btc-codegen 
 
-22/4/26:
+22/04/26:
 - Running Task: https://github.com/rust-bitcoin/rust-bech32/pull/254#issuecomment-4289786340
 	- [x] p1 - Migrate nightly update to rbmt 
 	- [x] p2 - Unify embedded nightly version
@@ -318,20 +318,20 @@
 	- [x] p14- Make CI pass
 	- [x] p15 - Verify solution carefully
 
-23/4/26:
+23/04/26:
 - Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6052
 - Merged PR: https://github.com/rust-bitcoin/rust-bech32/pull/259
 - Running Task: https://github.com/rust-bitcoin/corepc/pull/570
 	- Opened PR: https://github.com/rust-bitcoin/corepc/pull/570
 - Bitdevs
 
-24/4/26:
+24/04/26:
 - Running Task: https://github.com/rust-bitcoin/corepc/pull/570
-25/4/26:
+25/04/26:
 - New task: Read up issues in rust-bitcoin
 	- So I have selected about 11 valuable issues to tackle for version 1.0 of rust-bitcoin
 
-27/4/26:
+27/04/26:
 - Running task: https://git.rust-bitcoin.org/rust-bitcoin/rust-psbt/issues/66
 	- [x] p5 - learning PSBT repo
 	- [x] p6 - Fixating knowledge about PSBTs
@@ -354,7 +354,7 @@
 - Write report about this month's work:
 	- [x] p1 - copy template and add general outline
 
-28/7/26:
+28/04/26:
 - New task: do a rust-bitcoin PR:
 	- [x] p1 - Read the codebase systematically
 	- [x] p2 - Read the codebase systematically
@@ -377,7 +377,7 @@
 	- [x] p4 - Mentorship
 	- [x] p5 - Mentorship
 
-29/7/26:
+29/04/26:
 - Running Task: https://github.com/rust-bitcoin/corepc/pull/570
 	- [x] p40 - Adapting the PR based on feedback
 	- [x] p41 - Adapting the PR based on feedback
@@ -422,7 +422,7 @@
 	- All the little TODOs fixed in 40 commits and potentially 2~5 PRs
 - Opened a documentation fix PR: https://github.com/rust-bitcoin/corepc/pull/574/changes
 
-01/05/2026:
+01/05/26:
  - rust-bitcoin:
 	 - [x] p1 - Close reading
 	 - [x] p2 - Close reading
@@ -448,7 +448,7 @@
 - Client: https://github.com/rust-bitcoin/corepc/pull/558#event-24779196166
 	- [x] p6 - Structure and plan the codegen repo
 
-04/05/2026:
+04/05/26:
 - Corepc: 
 	- [x] p1 - Addressing reviews
 	- [x] p2 - Addressing reviews
@@ -674,18 +674,15 @@
 - Issue comment: https://github.com/rust-bitcoin/corepc/issues/238#issuecomment-4578255911
 - Opened corepc v31 PR: https://github.com/rust-bitcoin/corepc/pull/615
 
-31/05/26:
-- Send monthly report [[MAY REPORT]]
-
-01/05/26:
+01/06/26:
 - Work on codegen production async client for corepc 
 - Address reviews: https://github.com/rust-bitcoin/corepc/pull/615
 
-02/05/26:
+02/06/26:
 - Work on codegen production async client for corepc 
 - Work 0.31.x rust-bitcoin CI
 
-03/05/26:
+03/06/26:
 - Work on codegen production async client for corepc 
 - First Secp PR: https://github.com/rust-bitcoin/rust-secp256k1/pull/747
 - Adress bitcoin core reviews https://github.com/bitcoin/bitcoin/pull/34764
@@ -782,9 +779,6 @@
 - New PR: https://git.rust-bitcoin.org/rust-bitcoin/rust-bitcoin-maintainer-tools/pulls/231
 - Review: https://github.com/rust-bitcoin/rust-bitcoin/pull/6576
 
-20/07/26:
-- Writing grant letter
-
 22/07/26:
 - https://github.com/rust-bitcoin/rust-bitcoin/pull/6603
 
@@ -801,7 +795,6 @@
 - Fix CI broken rustc updates: https://github.com/rust-bitcoin/rust-bitcoin/pull/6618
 
 27/07/26:
-
 - fuzz corpora save for rust-bitcoin on qa-assets repo:
 	- [x] Fuzz all files in rust-bitcoin/fuzz repo ✅ 2026-07-27
 	- [x] Validating that basic fuzz solution makes sense ✅ 2026-07-28
@@ -852,22 +845,211 @@
 - Issues created:
 	- [x] https://github.com/rust-bitcoin/qa-assets/issues/1 ✅ 2026-07-31
 
-3/8/26:
+03/08/26:
 - Issues created
-	- https://git.rust-bitcoin.org/rust-bitcoin/corepc/issues/676
-- fuzz corpora save for rust-bitcoin on qa-assets repo:
-	- [ ] Integrate corpus in reviewable PR  properly
-	- [ ] Add corpus-based fuzz check on each PR's CI
-	- [ ] Design issue opening in job
-	- [ ] Raise the PRs
+	- [x] https://git.rust-bitcoin.org/rust-bitcoin/corepc/issues/676 ✅ 2026-08-03
+- Reivew:
+	- [x] https://github.com/rust-bitcoin/rust-bitcoin/pull/6656 ✅ 2026-08-03
 - Units / Primitives quality:
 	- Tobin's call to review units https://github.com/rust-bitcoin/rust-bitcoin/issues/3632#issuecomment-5111452576
-	- [ ] Review the latest mpagot PRs regarding primitives
-		- [ ] https://github.com/rust-bitcoin/rust-bitcoin/pull/6621
-		- [ ] https://github.com/rust-bitcoin/rust-bitcoin/pull/6622
-		- [ ] https://github.com/rust-bitcoin/rust-bitcoin/pull/6623
-- Implement compat layer on BDK:
-	 - [ ] Draft a BDK PR implementing units compat layer - 
-	 - [ ] Identify what worked, what doesnt.
-	 - [ ] Propose an improvement
 
+04/08/26:
+- Issue comment:
+	- [x] https://git.rust-bitcoin.org/rust-bitcoin/corepc/issues/674#issuecomment-439622
+- PRs created:
+	- [x] https://github.com/rust-bitcoin/rust-bitcoin/pull/6671
+	- [x] https://github.com/rust-bitcoin/rust-bitcoin/pull/6672
+- Reviews:
+	- [x] https://github.com/rust-bitcoin/rust-bitcoin/pull/6670#pullrequestreview-4858030668
+	- [x] https://github.com/rust-bitcoin/rust-bitcoin/pull/6663#pullrequestreview-4858302061 ✅ 2026-08-04
+
+05/08/26:
+- https://git.rust-bitcoin.org/rust-bitcoin/rust-secp256k1/pulls/929
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6671
+	- Relative locktime docs called the value a height when it is really a count of blocks.
+
+06/08/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6689
+	- Follow up to the docs fix, renaming the locktime accessors and query methods for units 1.0.
+
+07/08/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6691
+	- Tooling to assert a type both implements and does not implement a given trait, so the API tests catch accidental trait additions.
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6672
+	- The API check labeller was producing nothing, so no PR ever got labelled.
+- Review (changes requested): https://github.com/rust-bitcoin/rust-bitcoin/pull/6643
+
+08/08/26:
+- Reviewed nyonson's CI lockfiles and changelog forward port:
+	- https://github.com/rust-bitcoin/rust-bitcoin/pull/6697
+	- https://github.com/rust-bitcoin/rust-bitcoin/pull/6698
+
+10/08/26:
+- Took Tobin's issue about published test code reading unpublished data: https://github.com/rust-bitcoin/rust-bitcoin/issues/6509
+- Reverted the uniform naming on 6689, reviewers disagree that locktime APIs must look alike.
+
+11/08/26:
+- Renamed 6689 as proposed and regenerated the api files.
+
+12/08/26:
+- fuzz corpora save for rust-bitcoin on qa-assets repo:
+	- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6729
+	- The job pulls the saved corpus, fuzzes with it, and pushes new coverage back to qa-assets.
+
+13/08/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6737
+	- Daily fuzz was reinstalling tooling every run, plus a stale cache key.
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6738
+	- Renamed the old job to 'Fuzz (from scratch)' so it reads apart from the corpus one.
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6689
+
+14/08/26:
+- Review: https://github.com/rust-bitcoin/rust-bitcoin/pull/6731
+
+16/08/26:
+- Merged PR: https://git.rust-bitcoin.org/rust-bitcoin/rust-secp256k1/pulls/929
+
+17/08/26:
+- New PR, merged same day: https://github.com/rust-bitcoin/rust-secp256k1/pull/909
+	- Dropped the nightly update cron job, it was opening update PRs nobody handles.
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6738
+- Review: https://github.com/rust-bitcoin/rust-bitcoin/pull/6741
+
+18/08/26:
+- Split the rbmt upgrade PR https://github.com/rust-bitcoin/rust-bitcoin/pull/6547 into pieces, mixing the tooling bump with the API file deletion was a bad call:
+	- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6756 (drop the api snapshots, check the API by diff instead)
+	- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6757 (generate PR labels from master, a fork has no permission to)
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6758
+
+19/08/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6761
+	- Pins the toolchain action by version instead of the commit hash dependabot proposed.
+- Asked a corepc contributor how the LLM was used on their PR, per the project's policy: https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/691#issuecomment-441774
+
+20/08/26:
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6757
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6761
+
+23/08/26:
+- fuzz corpora save for rust-bitcoin on qa-assets repo:
+	- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6729
+	- Corpus fuzzing now runs in rust-bitcoin CI and writes back to qa-assets.
+
+24/08/26:
+- Reproduced a bitreq hang locally, a cancelled non pipelined async request never returns: https://git.rust-bitcoin.org/rust-bitcoin/corepc/issues/694#issuecomment-442374
+
+25/08/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6778
+	- Dependabot had no schedule so bumps landed whenever, now Sunday 16:00.
+- Reviewed mpbagot's base58 work:
+	- https://github.com/rust-bitcoin/rust-bitcoin/pull/6780
+	- https://github.com/rust-bitcoin/rust-bitcoin/pull/6781
+
+26/08/26:
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6778
+- Closed https://github.com/rust-bitcoin/rust-bitcoin/pull/6756, the work goes back into 6547.
+- Fuzz (from scratch) failure was the stale cache key, already fixed in 6737: https://github.com/rust-bitcoin/rust-bitcoin/issues/6783
+
+27/08/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6789
+	- First real catch from corpus fuzzing, the p2p commands target had diverged between master and 0.32.
+- Review: https://github.com/rust-bitcoin/rust-bitcoin/pull/6759
+
+28/08/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6797
+	- The prepare job read a bad nightly version and passed anyway, now it fails loudly.
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6798
+	- A yanked secp256k1 was breaking CI across the repo.
+- Miri failure traced to the same yanked version: https://github.com/rust-bitcoin/rust-bitcoin/issues/6799
+
+29/08/26:
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6798
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6758
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6737
+- Debugged corepc's PR labeller, FORGEJO_TOKEN is empty: https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/697
+
+30/08/26:
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6547
+	- Opened mid July, six weeks of rebases and one split before it went in.
+
+31/08/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6811
+	- Stores fuzz crashes so a failing run can be replayed instead of lost.
+
+01/09/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6814
+	- Deleted a stale fuzz target that no longer matches any code.
+- New PR: https://git.rust-bitcoin.org/rust-bitcoin/corepc/pulls/701
+	- Tests each TLS backend in CI. Recreated because after the forge migration I no longer own the old branch.
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6797
+
+02/09/26:
+- Implement compat layer downstream:
+	- New PR: https://github.com/rust-bitcoin/rust-miniscript/pull/1041
+	- WIP, demonstrates the bitcoin-units compat layer from a consumer's side.
+
+03/09/26:
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6789
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6814
+
+05/09/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6836
+	- Moves the tests that read tests/data out of src, so published test code stops reading files that are not published. Closes 6509.
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6811
+
+07/09/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6845
+	- Crash replay was installing rbmt from git, now from crates.io.
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6849
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6850
+	- Stacked attributes for feature conjunctions, the nested cfg spelling was unreadable.
+
+08/09/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6854
+	- Attempt at closing the public error enums in units before 1.0.
+
+09/09/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6858
+	- The base58 reserve length multiplication can overflow.
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6859
+	- Target::from_compact mishandled the sign bit. Checked it against Bitcoin Core's implementation.
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6857
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6836
+- Ran cargo audit across the repo, 5 advisories: https://github.com/rust-bitcoin/rust-bitcoin/issues/6405#issuecomment-5603790512
+
+10/09/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6865
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6866
+- Review: https://github.com/rust-bitcoin/rust-bitcoin/pull/6856
+- https://github.com/rust-bitcoin/rust-bitcoin/pull/6854
+
+11/09/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6872
+	- A zero target should convert to zero work.
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6873
+	- Seven miri tests dominate the run, skipped them.
+- Loupe found valid_range independently, same class of bug my own PRs keep hitting: https://github.com/rust-bitcoin/rust-bitcoin/issues/6830#issuecomment-5640727557
+
+12/09/26:
+- Published my first bitcoin video: [BIP 1, 2 and 3 Explained: What Is a Bitcoin Improvement Proposal?](https://www.youtube.com/watch?v=gy3GmWvEGRE)
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6845
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6873
+
+13/09/26:
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6858
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6859
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6865
+
+14/09/26:
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6849
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6857
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6866
+- Wrote down the rule for when a public error enum can be closed: https://github.com/rust-bitcoin/rust-bitcoin/issues/3261#issuecomment-5664631625
+
+15/09/26:
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6885
+	- Error source was being dropped in CommandStringDecoderError, found a second case while at it.
+- New PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6886
+	- Summing NumOpResult threw away the original error.
+- Merged PR: https://github.com/rust-bitcoin/rust-bitcoin/pull/6850
+- Review: https://github.com/rust-bitcoin/rust-bitcoin/pull/6879
